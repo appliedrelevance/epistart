@@ -1,0 +1,183 @@
+{
+ "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2024-04-06 18:50:36.284254",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "description",
+  "column_break_erso",
+  "as_a",
+  "i_want",
+  "so_that",
+  "section_break_pvcq",
+  "column_break_lowz",
+  "priority",
+  "story_status",
+  "epic",
+  "story_points",
+  "column_break_ueqs",
+  "acceptance_criteria",
+  "section_break_appq",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "description": "A brief title that summarizes the user story.",
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "description": "Detailed description of the user story, including any relevant background information.",
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "description": "Describes what the user wants to do or achieve.",
+   "fieldname": "i_want",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "I Want",
+   "reqd": 1
+  },
+  {
+   "description": "Explains the value or benefit that the user gains by fulfilling this need.",
+   "fieldname": "so_that",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "So That",
+   "reqd": 1
+  },
+  {
+   "description": " Specifies conditions under which a user story is considered complete and satisfactory.",
+   "fieldname": "acceptance_criteria",
+   "fieldtype": "Text Editor",
+   "label": "Acceptance Criteria"
+  },
+  {
+   "description": "Indicates the priority level of the user story to help with backlog grooming and sprint planning.",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Must Have\nShould Have\nCould Have\nWon\u2019t Have"
+  },
+  {
+   "fieldname": "story_status",
+   "fieldtype": "Select",
+   "label": "Story Status",
+   "options": "New\nIn Progress\nCompleted\nArchived"
+  },
+  {
+   "fieldname": "epic",
+   "fieldtype": "Link",
+   "label": "Epic",
+   "options": "Epic"
+  },
+  {
+   "fieldname": "story_points",
+   "fieldtype": "Float",
+   "label": "Story Points"
+  },
+  {
+   "description": "Specifies the role or persona of the user for whom the story is written.",
+   "fieldname": "as_a",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "As A",
+   "options": "Persona",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "User Story",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "column_break_erso",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_pvcq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_lowz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_appq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_ueqs",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-04-06 21:27:08.632510",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "User Story",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "title",
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

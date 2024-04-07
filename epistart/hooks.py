@@ -4,6 +4,14 @@ app_publisher = "Applied Relevance"
 app_description = "Epinomy Lean Startup Module"
 app_email = "geveritt@appliedrelevance.com"
 app_license = "mit"
+
+fixtures = [
+    {"doctype": "Workspace", "filters": {"name": ["in", ["Epinomy", "EpiStart"]]}},
+    {
+        "doctype": "Role",
+        "filters": {"name": ["in", ["EpiStart User", "EpiStart Administrator"]]},
+    },
+]
 # required_apps = []
 
 # Includes in <head>
@@ -226,4 +234,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

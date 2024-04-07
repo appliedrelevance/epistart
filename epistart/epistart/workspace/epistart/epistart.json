@@ -1,0 +1,45 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.&nbsp;&nbsp;\",\"col\":12}},{\"id\":\"MUVR2WhG6L\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Lean Canvases\",\"col\":4}},{\"id\":\"OWsWvM4i1r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"User Stories\",\"col\":4}},{\"id\":\"2urK5n_rr0\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Personae\",\"col\":4}}]",
+ "creation": "2024-04-06 18:02:33.645729",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "EpiStart",
+ "links": [],
+ "modified": "2024-04-06 20:13:48.957375",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "EpiStart",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Epinomy",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Lean Canvas",
+   "label": "Lean Canvases",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "User Story",
+   "label": "User Stories",
+   "quick_list_filter": "[]"
+  },
+  {
+   "document_type": "Persona",
+   "label": "Personae",
+   "quick_list_filter": "[]"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 37.0,
+ "shortcuts": [],
+ "title": "EpiStart"
+}

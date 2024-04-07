@@ -1,0 +1,180 @@
+{
+ "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "creation": "2024-04-06 18:04:32.444731",
+ "doctype": "DocType",
+ "document_type": "Document",
+ "engine": "InnoDB",
+ "field_order": [
+  "startup_name",
+  "column_break_rqwe",
+  "logo",
+  "column_break_jhdu",
+  "designed_by",
+  "section_break_kwvj",
+  "amended_from",
+  "problems",
+  "column_break_ggjv",
+  "solutions",
+  "key_metrics",
+  "column_break_skfn",
+  "unique_value_proposition",
+  "column_break_psrt",
+  "unfair_advantage",
+  "channels",
+  "column_break_qutg",
+  "customer_segments",
+  "section_break_qpuf",
+  "cost_structure",
+  "column_break_tyfu",
+  "revenue_streams"
+ ],
+ "fields": [
+  {
+   "description": "Top 3 Problems",
+   "fieldname": "problems",
+   "fieldtype": "Small Text",
+   "label": "Problems"
+  },
+  {
+   "fieldname": "column_break_ggjv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Top 3 features",
+   "fieldname": "solutions",
+   "fieldtype": "Small Text",
+   "label": "Solutions"
+  },
+  {
+   "fieldname": "column_break_skfn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Single, clear compelling messages that states why you are different and worth buying.",
+   "fieldname": "unique_value_proposition",
+   "fieldtype": "Small Text",
+   "label": "Unique Value Proposition"
+  },
+  {
+   "fieldname": "column_break_psrt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Can't be easily copied or bought.",
+   "fieldname": "unfair_advantage",
+   "fieldtype": "Small Text",
+   "label": "Unfair Advantage"
+  },
+  {
+   "fieldname": "column_break_qutg",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer_segments",
+   "fieldtype": "Small Text",
+   "label": "Customer Segments"
+  },
+  {
+   "fieldname": "section_break_qpuf",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "Customer acquisition costs, Distribution Costs, hosting, People, Etc.",
+   "fieldname": "cost_structure",
+   "fieldtype": "Small Text",
+   "label": "Cost Structure"
+  },
+  {
+   "fieldname": "column_break_tyfu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Revenue model, Lifetime value, Revenue, Gross Margin",
+   "fieldname": "revenue_streams",
+   "fieldtype": "Small Text",
+   "label": "Revenue Streams"
+  },
+  {
+   "fieldname": "key_metrics",
+   "fieldtype": "Small Text",
+   "label": "Key Metrics"
+  },
+  {
+   "description": "Path to Customers",
+   "fieldname": "channels",
+   "fieldtype": "Small Text",
+   "label": "Channels"
+  },
+  {
+   "fieldname": "column_break_jhdu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "designed_by",
+   "fieldtype": "Link",
+   "label": "Designed By",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "section_break_kwvj",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Lean Canvas",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "startup_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Startup Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_rqwe",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  }
+ ],
+ "image_field": "logo",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-06 21:05:33.454625",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Lean Canvas",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "startup_name",
+ "track_changes": 1
+}

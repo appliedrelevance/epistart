@@ -1,28 +1,31 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
- "autoname": "format:EPIC-{#####}",
- "creation": "2024-04-06 18:57:52.577968",
+ "creation": "2024-04-10 20:34:02.874225",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title"
+  "category_name",
+  "category_description"
  ],
  "fields": [
   {
-   "fieldname": "title",
+   "fieldname": "category_name",
    "fieldtype": "Data",
-   "label": "Title"
+   "label": "Category Name"
+  },
+  {
+   "fieldname": "category_description",
+   "fieldtype": "Small Text",
+   "label": "Category Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-06 23:42:15.068651",
+ "modified": "2024-04-10 20:35:15.189701",
  "modified_by": "Administrator",
  "module": "EpiStart",
- "name": "Epic",
- "naming_rule": "Expression",
+ "name": "Question Category",
  "owner": "Administrator",
  "permissions": [
   {
@@ -40,6 +43,5 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "track_changes": 1
+ "states": []
 }

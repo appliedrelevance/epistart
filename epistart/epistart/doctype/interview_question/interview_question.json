@@ -1,28 +1,32 @@
 {
  "actions": [],
- "allow_import": 1,
  "allow_rename": 1,
- "autoname": "format:EPIC-{#####}",
- "creation": "2024-04-06 18:57:52.577968",
+ "creation": "2024-04-10 20:31:58.353950",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "title"
+  "question_text",
+  "priority"
  ],
  "fields": [
   {
-   "fieldname": "title",
-   "fieldtype": "Data",
-   "label": "Title"
+   "fieldname": "question_text",
+   "fieldtype": "Small Text",
+   "label": "Question Text"
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "High\nMedium\nLow"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-06 23:42:15.068651",
+ "modified": "2024-04-10 20:33:36.573625",
  "modified_by": "Administrator",
  "module": "EpiStart",
- "name": "Epic",
- "naming_rule": "Expression",
+ "name": "Interview Question",
  "owner": "Administrator",
  "permissions": [
   {
@@ -40,6 +44,5 @@
  ],
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": [],
- "track_changes": 1
+ "states": []
 }

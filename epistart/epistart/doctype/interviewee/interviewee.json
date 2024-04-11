@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-10 18:48:56.898395",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "interviewee_name",
+  "link_tcxs",
+  "organization",
+  "column_break_qtmy",
+  "contact",
+  "email",
+  "phone_number",
+  "notes_section",
+  "interviewee_notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "interviewee_name",
+   "fieldtype": "Data",
+   "label": "Interviewee Name"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "link_tcxs",
+   "fieldtype": "Link",
+   "label": "Interviewee Role",
+   "options": "Interviewee Role"
+  },
+  {
+   "fieldname": "column_break_qtmy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fetch_from": "contact.email_id",
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fetch_from": "contact.phone",
+   "fieldname": "phone_number",
+   "fieldtype": "Phone",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "organization",
+   "fieldtype": "Data",
+   "label": "Organization"
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "interviewee_notes",
+   "fieldtype": "Text Editor",
+   "label": "Interviewee Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-10 18:57:26.071447",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Interviewee",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

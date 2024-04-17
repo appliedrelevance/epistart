@@ -1,12 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:{interviewee}-{YY}{MM}{DD}-{##}",
  "creation": "2024-04-10 19:00:03.110099",
  "description": "Product Market Fit interview.",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "interviewee",
+  "interviewee_role",
   "interviewer",
   "column_break_gjkq",
   "interview_date",
@@ -64,14 +66,23 @@
    "fieldname": "notes",
    "fieldtype": "Text Editor",
    "label": "Notes"
+  },
+  {
+   "fetch_from": "interviewee.link_tcxs",
+   "fieldname": "interviewee_role",
+   "fieldtype": "Link",
+   "label": "Interviewee Role",
+   "options": "Interviewee Role"
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2024-04-10 20:46:19.766846",
+ "modified": "2024-04-16 22:59:53.135774",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Market Interview",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -87,7 +98,10 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "interviewee",
+ "track_changes": 1
 }

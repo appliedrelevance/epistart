@@ -31,9 +31,10 @@
   {
    "description": "The primary role or job title the persona occupies in the context of using your product or service.",
    "fieldname": "role",
-   "fieldtype": "Data",
+   "fieldtype": "Link",
    "in_list_view": 1,
-   "label": "Role"
+   "label": "Role",
+   "options": "Persona Role"
   },
   {
    "description": "Basic demographic information to help in understanding who the persona is.",
@@ -82,7 +83,7 @@
  "image_field": "avatar",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-06 21:26:28.003192",
+ "modified": "2024-04-16 22:37:50.048542",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Persona",

@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:role_name",
  "creation": "2024-04-10 18:51:24.861545",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -12,7 +13,9 @@
   {
    "fieldname": "role_name",
    "fieldtype": "Data",
-   "label": "Role Name"
+   "in_list_view": 1,
+   "label": "Role Name",
+   "unique": 1
   },
   {
    "fieldname": "description",
@@ -22,10 +25,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-10 18:51:53.463200",
+ "modified": "2024-04-16 17:40:03.625429",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Interviewee Role",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -41,7 +45,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "role_name"
 }

@@ -19,6 +19,7 @@
   {
    "fieldname": "interviewee_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Interviewee Name"
   },
   {
@@ -30,6 +31,7 @@
   {
    "fieldname": "link_tcxs",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Interviewee Role",
    "options": "Interviewee Role"
   },
@@ -67,7 +69,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-10 18:57:26.071447",
+ "modified": "2024-04-16 17:43:35.048568",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Interviewee",
@@ -86,7 +88,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "interviewee_name"
 }

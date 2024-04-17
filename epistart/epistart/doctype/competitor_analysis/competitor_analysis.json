@@ -1,0 +1,109 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-16 18:20:33.824130",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "products_and_services_column",
+  "competitor_name",
+  "crm_competitor",
+  "market_presence",
+  "table_qhyp",
+  "key_metrics",
+  "competitive_advantage",
+  "market_strategy",
+  "financial_performance",
+  "notes"
+ ],
+ "fields": [
+  {
+   "description": " A unique name for the competitor.",
+   "fieldname": "competitor_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Competitor Name"
+  },
+  {
+   "description": "A link to the \"Competitor\" doctype in ERPNext, if available.",
+   "fieldname": "crm_competitor",
+   "fieldtype": "Link",
+   "label": "CRM Competitor",
+   "options": "Competitor"
+  },
+  {
+   "default": "Regional",
+   "description": "The market reach of the competitor (Local, Regional, National, Global).",
+   "fieldname": "market_presence",
+   "fieldtype": "Select",
+   "label": "Market Presence",
+   "options": "Local\nRegional\nNational\nGlobal"
+  },
+  {
+   "description": "What gives the competitor an edge in the market.",
+   "fieldname": "competitive_advantage",
+   "fieldtype": "Small Text",
+   "label": "Competitive Advantage"
+  },
+  {
+   "description": "The known strategies they use for market penetration.",
+   "fieldname": "market_strategy",
+   "fieldtype": "Small Text",
+   "label": "Market Strategy"
+  },
+  {
+   "description": "An estimate of the competitor's financial performance.",
+   "fieldname": "financial_performance",
+   "fieldtype": "Currency",
+   "label": "Financial Performance"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  },
+  {
+   "description": "Important metrics to assess the competitor\u2019s performance.",
+   "fieldname": "key_metrics",
+   "fieldtype": "Small Text",
+   "label": "Key Metrics"
+  },
+  {
+   "fieldname": "products_and_services_column",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Details of key products or services offered by the competitor.",
+   "fieldname": "table_qhyp",
+   "fieldtype": "Table",
+   "label": "Products and Services",
+   "options": "Core Offerings"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-16 20:07:10.183520",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Competitor Analysis",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "competitor_name"
+}

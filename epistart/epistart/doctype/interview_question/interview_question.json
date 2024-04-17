@@ -5,6 +5,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "column_break_nlzv",
   "question_text",
   "priority"
  ],
@@ -12,18 +13,24 @@
   {
    "fieldname": "question_text",
    "fieldtype": "Small Text",
+   "in_list_view": 1,
    "label": "Question Text"
   },
   {
    "fieldname": "priority",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Priority",
    "options": "High\nMedium\nLow"
+  },
+  {
+   "fieldname": "column_break_nlzv",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-10 20:33:36.573625",
+ "modified": "2024-04-16 17:44:22.723792",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Interview Question",

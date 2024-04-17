@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestPMFInterview(FrappeTestCase):
+class TestMarketInterview(FrappeTestCase):
 	pass

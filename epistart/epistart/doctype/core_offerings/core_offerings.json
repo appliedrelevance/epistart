@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-16 18:34:05.677145",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_slzs",
+  "product_or_service_name",
+  "description",
+  "key_features",
+  "market_segment",
+  "pricing"
+ ],
+ "fields": [
+  {
+   "fieldname": "column_break_slzs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Name of the product or service.",
+   "fieldname": "product_or_service_name",
+   "fieldtype": "Data",
+   "label": "Product or Service Name"
+  },
+  {
+   "description": "A brief description of the product or service.",
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "description": "A list of key features that distinguish this product or service.",
+   "fieldname": "key_features",
+   "fieldtype": "Small Text",
+   "label": "Key Features"
+  },
+  {
+   "description": "The market segment this product or service targets (e.g., Enterprise, SMB, Consumer).",
+   "fieldname": "market_segment",
+   "fieldtype": "Select",
+   "label": "Market Segment",
+   "options": "Enterprise\nGovernment\nBusiness\nNonprofit\nConsumer"
+  },
+  {
+   "description": "Price or typical price range of the product or service.",
+   "fieldname": "pricing",
+   "fieldtype": "Currency",
+   "label": "Pricing"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-16 18:40:01.895845",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Core Offerings",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

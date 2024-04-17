@@ -13,12 +13,13 @@
   {
    "fieldname": "title",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Title"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-06 23:42:15.068651",
+ "modified": "2024-04-16 17:44:58.232033",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Epic",

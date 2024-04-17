@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.&nbsp;&nbsp;\",\"col\":12}},{\"id\":\"MUVR2WhG6L\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Lean Canvases\",\"col\":4}},{\"id\":\"OWsWvM4i1r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"User Stories\",\"col\":4}},{\"id\":\"2urK5n_rr0\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Personae\",\"col\":4}},{\"id\":\"yNf6bc5hSg\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Product Market Fit Interview\",\"col\":4}},{\"id\":\"wyHvyYK20r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interviewees\",\"col\":4}},{\"id\":\"OMlAC1V_io\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interview Questions\",\"col\":4}}]",
+ "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.&nbsp;&nbsp;\",\"col\":12}},{\"id\":\"MUVR2WhG6L\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Lean Canvases\",\"col\":4}},{\"id\":\"OWsWvM4i1r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"User Stories\",\"col\":4}},{\"id\":\"2urK5n_rr0\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Personae\",\"col\":4}},{\"id\":\"wyHvyYK20r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interviewees\",\"col\":4}},{\"id\":\"OMlAC1V_io\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interview Questions\",\"col\":4}},{\"id\":\"HmyG75Em9y\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Market Interview\",\"col\":4}}]",
  "creation": "2024-04-10 16:55:58.716280",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "EpiStart",
  "links": [],
- "modified": "2024-04-10 20:50:18.742446",
+ "modified": "2024-04-16 18:11:46.962182",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "EpiStart",
@@ -28,8 +28,8 @@
    "quick_list_filter": "[]"
   },
   {
-   "document_type": "PMF Interview",
-   "label": "Product Market Fit Interview",
+   "document_type": "Market Interview",
+   "label": "Market Interview",
    "quick_list_filter": "[]"
   },
   {

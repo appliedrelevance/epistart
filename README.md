@@ -1,4 +1,4 @@
-## EpiStart - Agile Project Management for Frappe
+## EpiStart - Lean Startup Methodology for Frappe
 
 EpiStart is an open-source app designed to bring agile project management tools to the Frappe framework. It provides a set of doctypes that allow teams to manage their projects using the Lean Startup methodology. EpiStart is perfect for startups and teams looking to implement agile practices in their Frappe-based applications.
 

@@ -2,12 +2,6 @@
 
 EpiStart is an open-source app designed to bring agile project management tools to the Frappe framework. It provides a set of doctypes that allow teams to manage their projects using the Lean Startup methodology. EpiStart is perfect for startups and teams looking to implement agile practices in their Frappe-based applications.
 
-### Version
-v0.1.0 Beta
-
-### License
-MIT License
-
 ### Installation
 To install EpiStart on your Frappe site, follow these steps:
 

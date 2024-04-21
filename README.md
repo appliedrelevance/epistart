@@ -33,6 +33,14 @@ To install EpiStart on your Frappe site, follow these steps:
 - **Description:** Describes a feature from the perspective of the end user, capturing what they want and why.
 - **Usage:** Use this doctype to break down features into manageable pieces of work, each with clear acceptance criteria.
 
+#### Competitor Analysis
+- **Description:** Allows for the systematic recording and analysis of competitors’ data including market presence, strategic advantages, and financial performance.
+- **Usage:** Use this doctype to understand your competitive landscape and identify strategic opportunities and threats.
+
+#### Product Requirements Document (PRD)
+- **Description:** Details the complete specifications and requirements of a product, including user stories, business goals, and technical requirements.
+- **Usage:** Use this doctype to align project stakeholders and guide the development team through precise specifications and planned milestones.
+
 ### Contributing
 Contributions are welcome! If you'd like to contribute to EpiStart, please fork the repository, make your changes, and submit a pull request.
 

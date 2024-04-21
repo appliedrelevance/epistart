@@ -1,13 +1,14 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:interviewee_name",
  "creation": "2024-04-10 18:48:56.898395",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "interviewee_name",
-  "link_tcxs",
   "organization",
+  "link_tcxs",
   "column_break_qtmy",
   "contact",
   "email",
@@ -20,7 +21,8 @@
    "fieldname": "interviewee_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Interviewee Name"
+   "label": "Interviewee Name",
+   "unique": 1
   },
   {
    "fieldname": "contact",
@@ -69,10 +71,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-16 17:43:35.048568",
+ "modified": "2024-04-21 16:45:20.972906",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Interviewee",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

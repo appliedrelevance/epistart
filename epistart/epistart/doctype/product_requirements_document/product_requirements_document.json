@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:EPI-PRD-{#####}",
+ "creation": "2024-04-21 12:54:30.101359",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product_name",
+  "abstract",
+  "user_stories_section",
+  "user_stories",
+  "narrative_tab",
+  "narrative",
+  "goals_tab",
+  "business_goals",
+  "user_goals",
+  "non_goals",
+  "user_experience_tab",
+  "ui_mockup",
+  "metrics_tab",
+  "technical_tab",
+  "technical_considerations_section",
+  "technical_narrative",
+  "platform_elements",
+  "milestones_tab",
+  "project"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "abstract",
+   "fieldtype": "Text Editor",
+   "label": "Abstract"
+  },
+  {
+   "fieldname": "user_stories_section",
+   "fieldtype": "Section Break",
+   "label": "User Stories"
+  },
+  {
+   "fieldname": "user_stories",
+   "fieldtype": "Table",
+   "label": "User Stories",
+   "options": "Product User Story"
+  },
+  {
+   "fieldname": "narrative_tab",
+   "fieldtype": "Tab Break",
+   "label": "Narrative"
+  },
+  {
+   "description": "A compelling story that outlines how the feature can positively impact users and the business, tailored for executives.",
+   "fieldname": "narrative",
+   "fieldtype": "Text Editor",
+   "label": "Narrative"
+  },
+  {
+   "fieldname": "goals_tab",
+   "fieldtype": "Tab Break",
+   "label": "Goals"
+  },
+  {
+   "description": " How the product will benefit the company, such as increasing revenue or improving market share.",
+   "fieldname": "business_goals",
+   "fieldtype": "Text Editor",
+   "label": "Business Goals"
+  },
+  {
+   "description": "How the product will benefit the users, like solving a specific problem or improving their experience.",
+   "fieldname": "user_goals",
+   "fieldtype": "Text Editor",
+   "label": "User Goals"
+  },
+  {
+   "description": "What the product will not focus on, to avoid scope creep.",
+   "fieldname": "non_goals",
+   "fieldtype": "Text Editor",
+   "label": "Non-Goals"
+  },
+  {
+   "fieldname": "user_experience_tab",
+   "fieldtype": "Tab Break",
+   "label": "User Experience"
+  },
+  {
+   "fieldname": "ui_mockup",
+   "fieldtype": "Link",
+   "label": "UI Mockup",
+   "options": "UI Screen"
+  },
+  {
+   "fieldname": "metrics_tab",
+   "fieldtype": "Tab Break",
+   "label": "Metrics"
+  },
+  {
+   "fieldname": "technical_tab",
+   "fieldtype": "Tab Break",
+   "label": "Technical"
+  },
+  {
+   "fieldname": "technical_considerations_section",
+   "fieldtype": "Section Break",
+   "label": "Technical Considerations"
+  },
+  {
+   "description": "Technical requirements and constraints, including platforms, tools, and dependencies.",
+   "fieldname": "technical_narrative",
+   "fieldtype": "Text Editor",
+   "label": "Technical Narrative"
+  },
+  {
+   "fieldname": "platform_elements",
+   "fieldtype": "Table",
+   "label": "Platform Elements",
+   "options": "Platform Element"
+  },
+  {
+   "fieldname": "milestones_tab",
+   "fieldtype": "Tab Break",
+   "label": "Milestones"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-21 16:40:42.961475",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Product Requirements Document",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "product_name"
+}

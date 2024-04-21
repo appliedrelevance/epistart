@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-21 13:12:52.698426",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "element_name",
+  "description",
+  "column_break_kfxb",
+  "element_type",
+  "version",
+  "required"
+ ],
+ "fields": [
+  {
+   "fieldname": "element_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Element Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_kfxb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "element_type",
+   "fieldtype": "Link",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Element Type",
+   "options": "Platform Element Type"
+  },
+  {
+   "fieldname": "version",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Version"
+  },
+  {
+   "default": "0",
+   "fieldname": "required",
+   "fieldtype": "Check",
+   "label": "Required"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-04-21 16:44:11.141033",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Platform Element",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

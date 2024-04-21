@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-21 13:15:57.362796",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "element_type_name",
+  "element_type_class",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "element_type_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Element Type Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "element_type_class",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Element Type Class",
+   "options": "Hardware\nSoftware\nService",
+   "reqd": 1,
+   "sort_options": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-21 16:43:42.434749",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Platform Element Type",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "element_type_name"
+}

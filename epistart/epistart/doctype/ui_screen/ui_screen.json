@@ -1,0 +1,82 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-21 15:55:52.919991",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "screen_shot",
+  "column_break_yafy",
+  "screen_name",
+  "screen_route",
+  "section_break_nksp",
+  "page_doctype",
+  "column_break_fglu",
+  "page_link"
+ ],
+ "fields": [
+  {
+   "fieldname": "screen_shot",
+   "fieldtype": "Attach Image",
+   "label": "Screen Shot"
+  },
+  {
+   "fieldname": "column_break_yafy",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "screen_name",
+   "fieldtype": "Data",
+   "label": "Screen Name"
+  },
+  {
+   "fieldname": "screen_route",
+   "fieldtype": "Data",
+   "label": "Screen Route"
+  },
+  {
+   "fieldname": "section_break_nksp",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "page_doctype",
+   "fieldtype": "Link",
+   "label": "Page DocType",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "column_break_fglu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "page_link",
+   "fieldtype": "Dynamic Link",
+   "label": "Page Link",
+   "options": "page_doctype"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-21 16:42:45.059265",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "UI Screen",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

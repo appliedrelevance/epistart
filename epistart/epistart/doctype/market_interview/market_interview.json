@@ -22,12 +22,14 @@
   {
    "fieldname": "interviewee",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Interviewee",
    "options": "Interviewee"
   },
   {
    "fieldname": "interviewer",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Interviewer",
    "options": "User"
   },
@@ -71,6 +73,7 @@
    "fetch_from": "interviewee.link_tcxs",
    "fieldname": "interviewee_role",
    "fieldtype": "Link",
+   "in_list_view": 1,
    "label": "Interviewee Role",
    "options": "Interviewee Role"
   }
@@ -78,7 +81,7 @@
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "links": [],
- "modified": "2024-04-16 22:59:53.135774",
+ "modified": "2024-04-21 16:45:58.391672",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Market Interview",

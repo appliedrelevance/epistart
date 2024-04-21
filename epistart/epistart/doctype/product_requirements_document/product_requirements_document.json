@@ -8,14 +8,15 @@
  "field_order": [
   "product_name",
   "abstract",
+  "narrative",
   "user_stories_section",
   "user_stories",
-  "narrative_tab",
-  "narrative",
   "goals_tab",
   "business_goals",
   "user_goals",
   "non_goals",
+  "features_tab",
+  "product_features",
   "user_experience_tab",
   "ui_mockup",
   "metrics_tab",
@@ -49,11 +50,6 @@
    "options": "Product User Story"
   },
   {
-   "fieldname": "narrative_tab",
-   "fieldtype": "Tab Break",
-   "label": "Narrative"
-  },
-  {
    "description": "A compelling story that outlines how the feature can positively impact users and the business, tailored for executives.",
    "fieldname": "narrative",
    "fieldtype": "Text Editor",
@@ -85,7 +81,7 @@
   {
    "fieldname": "user_experience_tab",
    "fieldtype": "Tab Break",
-   "label": "User Experience"
+   "label": "UI/UX"
   },
   {
    "fieldname": "ui_mockup",
@@ -130,11 +126,22 @@
    "fieldtype": "Link",
    "label": "Project",
    "options": "Project"
+  },
+  {
+   "fieldname": "features_tab",
+   "fieldtype": "Tab Break",
+   "label": "Features"
+  },
+  {
+   "fieldname": "product_features",
+   "fieldtype": "Table",
+   "label": "Product Features",
+   "options": "Product Feature"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-21 16:40:42.961475",
+ "modified": "2024-04-21 17:59:54.192689",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements Document",

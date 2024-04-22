@@ -1,7 +1,7 @@
 {
  "charts": [],
- "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.&nbsp;&nbsp;\",\"col\":12}},{\"id\":\"MUVR2WhG6L\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Lean Canvases\",\"col\":4}},{\"id\":\"OWsWvM4i1r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"User Stories\",\"col\":4}},{\"id\":\"2urK5n_rr0\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Personae\",\"col\":4}},{\"id\":\"wyHvyYK20r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interviewees\",\"col\":4}},{\"id\":\"OMlAC1V_io\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interview Questions\",\"col\":4}},{\"id\":\"TlaH4s8oZ6\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Market Interview\",\"col\":4}}]",
- "creation": "2024-04-16 21:24:40.258479",
+ "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.&nbsp;&nbsp;\",\"col\":12}},{\"id\":\"5z9c4U0I6K\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Product Requirements\",\"col\":4}},{\"id\":\"MUVR2WhG6L\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Lean Canvases\",\"col\":4}},{\"id\":\"wyHvyYK20r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interviewees\",\"col\":4}},{\"id\":\"2urK5n_rr0\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Personae\",\"col\":12}},{\"id\":\"OWsWvM4i1r\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"User Stories\",\"col\":12}},{\"id\":\"OMlAC1V_io\",\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"Interview Questions\",\"col\":12}}]",
+ "creation": "2024-04-21 22:50:54.226535",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "EpiStart",
  "links": [],
- "modified": "2024-04-16 22:26:35.956222",
+ "modified": "2024-04-21 22:57:04.344502",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "EpiStart",
@@ -23,13 +23,13 @@
  "public": 1,
  "quick_lists": [
   {
-   "document_type": "Market Interview",
-   "label": "Market Interview",
+   "document_type": "Lean Canvas",
+   "label": "Lean Canvases",
    "quick_list_filter": "[]"
   },
   {
-   "document_type": "Lean Canvas",
-   "label": "Lean Canvases",
+   "document_type": "Product Requirements Document",
+   "label": "Product Requirements",
    "quick_list_filter": "[]"
   },
   {

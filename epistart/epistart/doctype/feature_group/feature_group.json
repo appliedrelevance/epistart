@@ -39,7 +39,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-21 23:52:23.830500",
+ "modified": "2024-04-22 17:40:18.564328",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Feature Group",
@@ -54,6 +54,27 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart User",
+   "share": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
    "share": 1,
    "write": 1
   }

@@ -40,8 +40,7 @@
   },
   {
    "fieldname": "user_stories_section",
-   "fieldtype": "Section Break",
-   "label": "User Stories"
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "user_stories",
@@ -141,7 +140,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-21 17:59:54.192689",
+ "modified": "2024-04-22 00:02:15.709514",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements Document",

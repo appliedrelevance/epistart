@@ -1,0 +1,64 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-04-21 23:51:15.866272",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "feature_group_name",
+  "description",
+  "column_break_tifb",
+  "icon",
+  "color"
+ ],
+ "fields": [
+  {
+   "fieldname": "feature_group_name",
+   "fieldtype": "Data",
+   "label": "Feature Group Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Icon",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "color",
+   "fieldtype": "Color",
+   "label": "Color"
+  },
+  {
+   "fieldname": "column_break_tifb",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-21 23:52:23.830500",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Feature Group",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

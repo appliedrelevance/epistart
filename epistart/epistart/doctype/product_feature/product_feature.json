@@ -7,6 +7,7 @@
  "field_order": [
   "feature_name",
   "moscow_priority",
+  "feature_group",
   "column_break_nvvc",
   "task_link",
   "feature_status",
@@ -73,12 +74,19 @@
    "fieldname": "technical_requirements",
    "fieldtype": "Text Editor",
    "label": "Technical Requirements"
+  },
+  {
+   "description": "Group together related features.",
+   "fieldname": "feature_group",
+   "fieldtype": "Link",
+   "label": "Feature Group",
+   "options": "Feature Group"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-21 17:59:38.880710",
+ "modified": "2024-04-21 23:53:44.788484",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Feature",

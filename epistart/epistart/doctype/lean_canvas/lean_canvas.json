@@ -2,29 +2,35 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
+ "autoname": "format:ESLC-{#####}",
  "creation": "2024-04-06 18:04:32.444731",
  "doctype": "DocType",
  "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
+  "details_tab",
+  "heading_section",
   "startup_name",
   "column_break_rqwe",
   "logo",
   "column_break_jhdu",
   "designed_by",
-  "section_break_kwvj",
+  "section_break_dxdl",
+  "preview",
+  "section_break_oasi",
   "amended_from",
+  "technical_tab",
+  "section_break_kwvj",
   "problems",
-  "column_break_ggjv",
   "solutions",
-  "key_metrics",
-  "column_break_skfn",
-  "unique_value_proposition",
-  "column_break_psrt",
+  "messaging_tab",
   "unfair_advantage",
-  "channels",
-  "column_break_qutg",
+  "unique_value_proposition",
+  "market_tab",
   "customer_segments",
+  "channels",
+  "financial_tab",
+  "key_metrics",
   "section_break_qpuf",
   "cost_structure",
   "column_break_tyfu",
@@ -34,32 +40,22 @@
   {
    "description": "Top 3 Problems",
    "fieldname": "problems",
-   "fieldtype": "Small Text",
-   "label": "Problems"
-  },
-  {
-   "fieldname": "column_break_ggjv",
-   "fieldtype": "Column Break"
+   "fieldtype": "Table",
+   "label": "Problems",
+   "options": "Problem"
   },
   {
    "description": "Top 3 features",
    "fieldname": "solutions",
-   "fieldtype": "Small Text",
-   "label": "Solutions"
-  },
-  {
-   "fieldname": "column_break_skfn",
-   "fieldtype": "Column Break"
+   "fieldtype": "Table",
+   "label": "Solutions",
+   "options": "Solution"
   },
   {
    "description": "Single, clear compelling messages that states why you are different and worth buying.",
    "fieldname": "unique_value_proposition",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Unique Value Proposition"
-  },
-  {
-   "fieldname": "column_break_psrt",
-   "fieldtype": "Column Break"
   },
   {
    "description": "Can't be easily copied or bought.",
@@ -68,17 +64,14 @@
    "label": "Unfair Advantage"
   },
   {
-   "fieldname": "column_break_qutg",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "customer_segments",
    "fieldtype": "Small Text",
    "label": "Customer Segments"
   },
   {
    "fieldname": "section_break_qpuf",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Financial"
   },
   {
    "description": "Customer acquisition costs, Distribution Costs, hosting, People, Etc.",
@@ -115,7 +108,7 @@
    "fieldname": "designed_by",
    "fieldtype": "Link",
    "label": "Designed By",
-   "options": "Contact"
+   "options": "User"
   },
   {
    "fieldname": "section_break_kwvj",
@@ -136,8 +129,7 @@
    "fieldtype": "Data",
    "in_list_view": 1,
    "in_standard_filter": 1,
-   "label": "Startup Name",
-   "unique": 1
+   "label": "Startup Name"
   },
   {
    "fieldname": "column_break_rqwe",
@@ -147,15 +139,62 @@
    "fieldname": "logo",
    "fieldtype": "Attach Image",
    "label": "Logo"
+  },
+  {
+   "fieldname": "heading_section",
+   "fieldtype": "Section Break",
+   "label": "Heading"
+  },
+  {
+   "fieldname": "section_break_oasi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "technical_tab",
+   "fieldtype": "Tab Break",
+   "label": "Product"
+  },
+  {
+   "fieldname": "messaging_tab",
+   "fieldtype": "Tab Break",
+   "label": "Messaging"
+  },
+  {
+   "fieldname": "market_tab",
+   "fieldtype": "Tab Break",
+   "label": "Market"
+  },
+  {
+   "fieldname": "financial_tab",
+   "fieldtype": "Tab Break",
+   "label": "Financial"
+  },
+  {
+   "fieldname": "details_tab",
+   "fieldtype": "Tab Break",
+   "label": "Details"
+  },
+  {
+   "fieldname": "section_break_dxdl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "default": "    <h1>Lean Canvas for {{ doc.startup_name }}</h1>\n    <div class=\"lean-canvas\">\n        <div>\n            <div class=\"section-title\">Problem</div>\n            {% for row in doc.problems %}\n                <p>{{ row.problem }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Solution</div>\n            {% for row in doc.solutions %}\n                <p>{{ row.solution }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Key Metrics</div>\n            <p>{{ doc.key_metrics }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unique Value Proposition</div>\n            <p>{{ doc.unique_value_proposition }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unfair Advantage</div>\n            <p>{{ doc.unfair_advantage }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Channels</div>\n            <p>{{ doc.channels }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Customer Segments</div>\n            <p>{{ doc.customer_segments }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Cost Structure</div>\n            <p>{{ doc.cost_structure }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Revenue Streams</div>\n            <p>{{ doc.revenue_streams }}</p>\n        </div>\n    </div>\n\n",
+   "fieldname": "preview",
+   "fieldtype": "HTML",
+   "label": "Preview"
   }
  ],
  "image_field": "logo",
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2024-04-22 17:42:09.239363",
+ "make_attachments_public": 1,
+ "modified": "2024-06-05 16:53:44.574667",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Lean Canvas",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {

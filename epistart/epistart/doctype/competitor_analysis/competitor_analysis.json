@@ -5,15 +5,25 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "products_and_services_column",
   "competitor_name",
+  "description",
+  "homepage",
+  "column_break_ohjk",
   "crm_competitor",
   "market_presence",
-  "table_qhyp",
+  "financial_performance",
+  "relationship_section",
+  "competitor",
+  "column_break_lltz",
+  "partner",
+  "column_break_bjwo",
+  "customer",
+  "strategy_section",
+  "core_offerings",
   "key_metrics",
   "competitive_advantage",
   "market_strategy",
-  "financial_performance",
+  "section_break_mgdd",
   "notes"
  ],
  "fields": [
@@ -65,16 +75,67 @@
   {
    "description": "Important metrics to assess the competitor\u2019s performance.",
    "fieldname": "key_metrics",
-   "fieldtype": "Small Text",
+   "fieldtype": "Markdown Editor",
    "label": "Key Metrics"
   },
   {
-   "fieldname": "products_and_services_column",
+   "fieldname": "strategy_section",
+   "fieldtype": "Section Break",
+   "label": "Strategy"
+  },
+  {
+   "fieldname": "section_break_mgdd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_ohjk",
    "fieldtype": "Column Break"
   },
   {
+   "fieldname": "homepage",
+   "fieldtype": "Data",
+   "label": "Homepage",
+   "options": "URL"
+  },
+  {
+   "fieldname": "relationship_section",
+   "fieldtype": "Section Break",
+   "label": "Relationship"
+  },
+  {
+   "default": "0",
+   "fieldname": "competitor",
+   "fieldtype": "Check",
+   "label": "Competitor"
+  },
+  {
+   "fieldname": "column_break_lltz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "partner",
+   "fieldtype": "Check",
+   "label": "Partner"
+  },
+  {
+   "fieldname": "column_break_bjwo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "customer",
+   "fieldtype": "Check",
+   "label": "Customer"
+  },
+  {
    "description": "Details of key products or services offered by the competitor.",
-   "fieldname": "table_qhyp",
+   "fieldname": "core_offerings",
    "fieldtype": "Table",
    "label": "Products and Services",
    "options": "Core Offerings"
@@ -82,7 +143,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-22 17:38:57.921825",
+ "modified": "2024-05-05 17:41:44.191455",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Competitor Analysis",

@@ -22,12 +22,14 @@
    "description": "Name of the product or service.",
    "fieldname": "product_or_service_name",
    "fieldtype": "Data",
+   "in_list_view": 1,
    "label": "Product or Service Name"
   },
   {
    "description": "A brief description of the product or service.",
    "fieldname": "description",
    "fieldtype": "Small Text",
+   "in_list_view": 1,
    "label": "Description"
   },
   {
@@ -39,9 +41,9 @@
   {
    "description": "The market segment this product or service targets (e.g., Enterprise, SMB, Consumer).",
    "fieldname": "market_segment",
-   "fieldtype": "Select",
-   "label": "Market Segment",
-   "options": "Enterprise\nGovernment\nBusiness\nNonprofit\nConsumer"
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Market Segment"
   },
   {
    "description": "Price or typical price range of the product or service.",
@@ -53,7 +55,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-16 18:40:01.895845",
+ "modified": "2024-05-05 17:45:55.653134",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Core Offerings",

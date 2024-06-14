@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-13 00:31:47.477157",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "channel",
+  "importance",
+  "notes"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "channel",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Channel",
+   "options": "Channel"
+  },
+  {
+   "columns": 2,
+   "fieldname": "importance",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Importance",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "columns": 6,
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-13 00:39:12.351890",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Lean Canvas Channel",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

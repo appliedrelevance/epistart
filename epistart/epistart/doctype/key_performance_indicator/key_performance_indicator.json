@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-12 20:42:47.669847",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "kpi_name",
+  "description",
+  "target_value",
+  "current_value",
+  "measurement_period",
+  "kpi_status",
+  "kpi_values"
+ ],
+ "fields": [
+  {
+   "fieldname": "kpi_name",
+   "fieldtype": "Data",
+   "label": "KPI Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "target_value",
+   "fieldtype": "Float",
+   "label": "Target Value"
+  },
+  {
+   "fieldname": "current_value",
+   "fieldtype": "Float",
+   "label": "Current Value"
+  },
+  {
+   "fieldname": "measurement_period",
+   "fieldtype": "Select",
+   "label": "Measurement Period",
+   "options": "Daily\nWeekly\nMonthly\nQuarterly\nYearly"
+  },
+  {
+   "fieldname": "kpi_status",
+   "fieldtype": "Select",
+   "label": "KPI Status",
+   "options": "On Track\nOff Track\nAt Risk"
+  },
+  {
+   "fieldname": "kpi_values",
+   "fieldtype": "Table",
+   "label": "KPI Values",
+   "options": "KPI Value"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-12 20:54:14.401917",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Key Performance Indicator",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

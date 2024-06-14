@@ -1,0 +1,50 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-13 00:29:38.245556",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_segment",
+  "importance",
+  "notes"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "customer_segment",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer Segment",
+   "options": "Customer Segment"
+  },
+  {
+   "columns": 2,
+   "fieldname": "importance",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Importance",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "columns": 6,
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-13 00:38:17.016171",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Lean Canvas Customer Segment",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

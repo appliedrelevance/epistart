@@ -1,24 +1,38 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2024-06-13 00:28:43.956783",
+ "creation": "2024-06-12 21:09:51.379069",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "section_break_gvag"
+  "channel_name",
+  "description",
+  "channel_type"
  ],
  "fields": [
   {
-   "fieldname": "section_break_gvag",
-   "fieldtype": "Section Break"
+   "fieldname": "channel_name",
+   "fieldtype": "Data",
+   "label": "Channel Name"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "channel_type",
+   "fieldtype": "Select",
+   "label": "Channel Type",
+   "options": "Online\nOffline\nDirect"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-13 00:28:43.956783",
+ "modified": "2024-06-13 00:27:29.994762",
  "modified_by": "Administrator",
  "module": "EpiStart",
- "name": "Customer Segment",
+ "name": "Channel",
  "owner": "Administrator",
  "permissions": [
   {

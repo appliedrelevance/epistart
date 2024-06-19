@@ -11,6 +11,7 @@ fixtures = [
         "doctype": "Role",
         "filters": {"name": ["in", ["EpiStart User", "EpiStart Administrator"]]},
     },
+    {"doctype": "Print Format", "filters": {"module": ["in", ["EpiStart"]]}},
 ]
 # required_apps = []
 

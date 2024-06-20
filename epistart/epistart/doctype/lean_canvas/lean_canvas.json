@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
  "allow_guest_to_view": 1,
  "allow_import": 1,
  "allow_rename": 1,
@@ -13,14 +14,12 @@
   "heading_section",
   "startup_name",
   "column_break_rqwe",
-  "logo",
-  "column_break_jhdu",
-  "designed_by",
   "published",
+  "logo",
   "section_break_dxdl",
-  "preview",
+  "project_overview",
   "section_break_oasi",
-  "amended_from",
+  "preview",
   "route",
   "technical_tab",
   "section_break_kwvj",
@@ -35,7 +34,7 @@
   "financial_tab",
   "key_metrics",
   "section_break_qpuf",
-  "cost_structure",
+  "cost_structures",
   "column_break_tyfu",
   "revenue_streams"
  ],
@@ -78,13 +77,6 @@
    "label": "Financial"
   },
   {
-   "description": "Customer acquisition costs, Distribution Costs, hosting, People, Etc.",
-   "fieldname": "cost_structure",
-   "fieldtype": "Table",
-   "label": "Cost Structure",
-   "options": "Local Cost Structure"
-  },
-  {
    "fieldname": "column_break_tyfu",
    "fieldtype": "Column Break"
   },
@@ -109,28 +101,8 @@
    "options": "Local Channel"
   },
   {
-   "fieldname": "column_break_jhdu",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "designed_by",
-   "fieldtype": "Link",
-   "label": "Designed By",
-   "options": "User"
-  },
-  {
    "fieldname": "section_break_kwvj",
    "fieldtype": "Section Break"
-  },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Lean Canvas",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
   },
   {
    "fieldname": "startup_name",
@@ -142,11 +114,6 @@
   {
    "fieldname": "column_break_rqwe",
    "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "logo",
-   "fieldtype": "Attach Image",
-   "label": "Logo"
   },
   {
    "fieldname": "heading_section",
@@ -190,7 +157,7 @@
    "fieldname": "preview",
    "fieldtype": "HTML",
    "label": "Preview",
-   "options": "    <h1>Lean Canvas for {{ doc.startup_name }}</h1>\n    <div class=\"lean-canvas\">\n        <div>\n            <div class=\"section-title\">Problem</div>\n            {% for row in doc.problems %}\n                <p>{{ row.problem }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Solution</div>\n            {% for row in doc.solutions %}\n                <p>{{ row.solution }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Key Metrics</div>\n            <p>{{ doc.key_metrics }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unique Value Proposition</div>\n            <p>{{ doc.unique_value_proposition }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unfair Advantage</div>\n            <p>{{ doc.unfair_advantage }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Channels</div>\n            <p>{{ doc.channels }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Customer Segments</div>\n            <p>{{ doc.customer_segments }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Cost Structure</div>\n            <p>{{ doc.cost_structure }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Revenue Streams</div>\n            <p>{{ doc.revenue_streams }}</p>\n        </div>\n    </div>\n\n"
+   "options": "<h1>Lean Canvas Analysis of {{ doc.startup_name }}</h1>\n<div class=\"header\">\n    <img src=\"{{ doc.logo }}\" alt=\"{{ doc.startup_name }} logo\" class=\"logo\">\n    <div class=\"document-info\">\n        <h2>{{ doc.name }}</h2>\n        <p>Last Modified: {{ doc.modified }}</p>\n    </div>\n</div>\n<div class=\"lean-canvas\">\n    <div class=\"box problems\">\n        <div class=\"section-title\">Problems</div>\n        {% for row in doc.problems %}\n            <p>{{ row.problem_name }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box customer-segments\">\n        <div class=\"section-title\">Customer Segments</div>\n        {% for row in doc.customer_segments %}\n            <p>{{ frappe.db.get_value(\"Customer Segment\", row.customer_segment, \"customer_segment_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box unique-value-proposition\">\n        <div class=\"section-title\">Unique Value Proposition</div>\n        <p>{{ doc.unique_value_proposition }}</p>\n    </div>\n    <div class=\"box solutions\">\n        <div class=\"section-title\">Solutions</div>\n        {% for row in doc.solutions %}\n            <p>{{ row.solution_name }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box channels\">\n        <div class=\"section-title\">Channels</div>\n        {% for row in doc.channels %}\n            <p>{{ frappe.db.get_value(\"Channel\", row.channel, \"channel_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box cost-structure\">\n        <div class=\"section-title\">Cost Structures</div>\n        {% for row in doc.cost_structures %}\n            <p>{{ frappe.db.get_value(\"Cost Structure\", row.cost_structure, \"cost_structure_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box revenue-streams\">\n        <div class=\"section-title\">Revenue Streams</div>\n        {% for row in doc.revenue_streams %}\n            <p>{{ frappe.db.get_value(\"Revenue Stream\", row.revenue_stream, \"revenue_stream_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box key-metrics\">\n        <div class=\"section-title\">Key Metrics</div>\n        {% for row in doc.key_metrics %}\n            <p>{{ frappe.db.get_value(\"Key Performance Indicator\", row.key_performance_indicator, \"kpi_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box unfair-advantage\">\n        <div class=\"section-title\">Unfair Advantage</div>\n        <p>{{ doc.unfair_advantage }}</p>\n    </div>\n</div>\n"
   },
   {
    "default": "0",
@@ -201,7 +168,25 @@
   {
    "fieldname": "route",
    "fieldtype": "Data",
+   "hidden": 1,
    "label": "Route"
+  },
+  {
+   "fieldname": "project_overview",
+   "fieldtype": "Text Editor",
+   "label": "Project Overview"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "description": "Customer acquisition costs, Distribution Costs, hosting, People, Etc.",
+   "fieldname": "cost_structures",
+   "fieldtype": "Table",
+   "label": "Cost Structures",
+   "options": "Local Cost Structure"
   }
  ],
  "has_web_view": 1,
@@ -210,7 +195,7 @@
  "is_published_field": "published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2024-06-20 14:11:57.566578",
+ "modified": "2024-06-20 16:52:33.356429",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Lean Canvas",

@@ -28,8 +28,9 @@
   },
   {
    "columns": 6,
+   "fetch_from": "channel.description",
    "fieldname": "notes",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "in_list_view": 1,
    "label": "Notes"
   }
@@ -37,7 +38,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-20 08:07:20.346812",
+ "modified": "2024-06-20 15:45:29.147242",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Channel",

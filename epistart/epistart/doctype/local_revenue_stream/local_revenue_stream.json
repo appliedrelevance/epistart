@@ -6,20 +6,10 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "revenue_stream_link",
+  "revenue_stream",
   "description"
  ],
  "fields": [
-  {
-   "fieldname": "revenue_stream_link",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_preview": 1,
-   "in_standard_filter": 1,
-   "label": "Revenue Stream Link",
-   "options": "Revenue Stream",
-   "reqd": 1
-  },
   {
    "fetch_from": "revenue_stream_link.description",
    "fetch_if_empty": 1,
@@ -27,12 +17,22 @@
    "fieldtype": "Text Editor",
    "in_preview": 1,
    "label": "Description"
+  },
+  {
+   "fieldname": "revenue_stream",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Revenue Stream",
+   "options": "Revenue Stream",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-20 09:47:29.954909",
+ "modified": "2024-06-20 16:07:41.675461",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Revenue Stream",

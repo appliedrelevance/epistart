@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:ESLC-CHNL-{####}",
  "creation": "2024-06-12 21:09:51.379069",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -17,7 +18,7 @@
   },
   {
    "fieldname": "description",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Description"
   },
   {
@@ -29,10 +30,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-13 00:27:29.994762",
+ "modified": "2024-06-20 15:04:33.751386",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Channel",
+ "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [
   {
@@ -48,7 +50,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "channel_name"
 }

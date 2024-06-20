@@ -1,0 +1,82 @@
+[
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Direct sales of physical or digital products to customers.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:40:19.339583",
+  "name": "m1f1k8rvrv",
+  "revenue_stream_name": "Product Sales"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Fees for granting permission to use intellectual property, software, or content.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:41:05.059300",
+  "name": "m1tant36m7",
+  "revenue_stream_name": "Licensing"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Revenue generated from selling advertising space or time to other businesses.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:41:50.844126",
+  "name": "m2bki5432e",
+  "revenue_stream_name": "Advertising"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Earnings from promoting other companies' products or services and receiving a commission on sales.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:42:31.482219",
+  "name": "m2oaddjt6r",
+  "revenue_stream_name": "Affiliate Commissions"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Fees charged for facilitating transactions between buyers and sellers.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:42:57.108801",
+  "name": "m30bq04l48",
+  "revenue_stream_name": "Brokerage Fees"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Income from renting or leasing out equipment, property, or other assets.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:43:08.702017",
+  "name": "m33vs7203o",
+  "revenue_stream_name": "Rental/Leasing"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Revenue from selling access to aggregated and anonymized data collected from users.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:43:29.437264",
+  "name": "m3aetm6ma0",
+  "revenue_stream_name": "Data Monetization"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Recurring payments from users for access to a product or service on a monthly or annual basis.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:40:01.022405",
+  "name": "m19a7b98dv",
+  "revenue_stream_name": "Subscription Fees"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Charges for professional services such as consulting, training, or support.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:40:44.390983",
+  "name": "m1mrpq155s",
+  "revenue_stream_name": "Service Fees"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Offering basic services for free while charging for premium features or content.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:42:10.379836",
+  "name": "m2hnjcl1lj",
+  "revenue_stream_name": "Freemium Model"
+ }
+]

@@ -7,6 +7,9 @@
  "engine": "InnoDB",
  "field_order": [
   "product_name",
+  "column_break_qtjk",
+  "lean_canvas_link",
+  "section_break_ifsv",
   "abstract",
   "narrative",
   "user_stories_section",
@@ -18,8 +21,10 @@
   "features_tab",
   "product_features",
   "user_experience_tab",
+  "uiux_mockup",
   "ui_mockup",
   "metrics_tab",
+  "table_lpod",
   "technical_tab",
   "technical_considerations_section",
   "technical_narrative",
@@ -46,7 +51,7 @@
    "fieldname": "user_stories",
    "fieldtype": "Table",
    "label": "User Stories",
-   "options": "Product User Story"
+   "options": "Local User Story"
   },
   {
    "description": "A compelling story that outlines how the feature can positively impact users and the business, tailored for executives.",
@@ -85,7 +90,7 @@
   {
    "fieldname": "ui_mockup",
    "fieldtype": "Link",
-   "label": "UI Mockup",
+   "label": "UI Mockup Preview",
    "options": "UI Screen"
   },
   {
@@ -136,11 +141,35 @@
    "fieldtype": "Table",
    "label": "Product Features",
    "options": "Product Feature"
+  },
+  {
+   "fieldname": "table_lpod",
+   "fieldtype": "Table",
+   "options": "Local Key Performance Indicator"
+  },
+  {
+   "fieldname": "column_break_qtjk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "lean_canvas_link",
+   "fieldtype": "Link",
+   "label": "Lean Canvas Link",
+   "options": "Lean Canvas"
+  },
+  {
+   "fieldname": "section_break_ifsv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "uiux_mockup",
+   "fieldtype": "Attach",
+   "label": "UI/UX Mockup"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-22 17:38:25.076171",
+ "modified": "2024-06-20 09:44:11.634724",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements Document",

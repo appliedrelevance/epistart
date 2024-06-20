@@ -2,33 +2,28 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "field:fictional_name",
+ "autoname": "field:persona_name",
  "creation": "2024-04-06 19:52:12.652201",
  "default_view": "List",
  "doctype": "DocType",
  "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
-  "avatar",
-  "role",
+  "persona_name",
   "column_break_afzq",
-  "fictional_name",
-  "section_break_sbkd",
-  "demographics",
+  "role",
+  "avatar",
+  "section_break_ggnd",
+  "age_range",
+  "gender",
+  "location",
+  "business_needs_tab",
   "goals",
   "challenges",
   "motivations",
   "preferred_channels"
  ],
  "fields": [
-  {
-   "description": "A unique name for the persona, often a fictional name that reflects the character\u2019s role or key characteristic.",
-   "fieldname": "fictional_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Fictional Name",
-   "unique": 1
-  },
   {
    "description": "The primary role or job title the persona occupies in the context of using your product or service.",
    "fieldname": "role",
@@ -39,34 +34,28 @@
    "options": "Persona Role"
   },
   {
-   "description": "Basic demographic information to help in understanding who the persona is.",
-   "fieldname": "demographics",
-   "fieldtype": "Text Editor",
-   "label": "Demographics"
-  },
-  {
    "description": "Primary objectives or what the persona aims to achieve by using your product or service.",
    "fieldname": "goals",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Goals"
   },
   {
    "description": "The main challenges, pain points, or frustrations the persona faces, which your product or service seeks to address.",
    "fieldname": "challenges",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Challenges"
   },
   {
    "description": "What drives the persona to look for solutions? This includes both intrinsic and extrinsic motivations.",
    "fieldname": "motivations",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Motivations"
   },
   {
-   "description": "How and where the persona prefers to receive information or interact with your product or service (e.g., social media, email, in-person).",
    "fieldname": "preferred_channels",
-   "fieldtype": "Small Text",
-   "label": "Preferred Channels"
+   "fieldtype": "Table",
+   "label": "Preferred Channels",
+   "options": "Local Channel"
   },
   {
    "fieldname": "avatar",
@@ -78,14 +67,44 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "section_break_sbkd",
+   "description": "A unique name for the persona, often a fictional name that reflects the character\u2019s role or key characteristic.",
+   "fieldname": "persona_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Persona Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "age_range",
+   "fieldtype": "Select",
+   "label": "Age Range",
+   "options": "Under 18\n18-24\n25-34\n35-44\n45-54\n55-64\n65 and over"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "section_break_ggnd",
    "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "business_needs_tab",
+   "fieldtype": "Tab Break",
+   "label": "Business Needs"
   }
  ],
  "image_field": "avatar",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-22 19:36:30.608282",
+ "modified": "2024-06-20 14:45:23.308584",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Persona",

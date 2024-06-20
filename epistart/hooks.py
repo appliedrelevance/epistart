@@ -12,6 +12,13 @@ fixtures = [
         "filters": {"name": ["in", ["EpiStart User", "EpiStart Administrator"]]},
     },
     {"doctype": "Print Format", "filters": {"module": ["in", ["EpiStart"]]}},
+    {"doctype": "Cost Structure"},
+    {"doctype": "Revenue Stream"},
+    {"doctype": "Key Performance Indicator"},
+    {"doctype": "Customer Segment"},
+    {"doctype": "Channel"},
+    {"doctype": "Unit of Measure"},
+    {"doctype": "Unit of Measure Category"}
 ]
 # required_apps = []
 

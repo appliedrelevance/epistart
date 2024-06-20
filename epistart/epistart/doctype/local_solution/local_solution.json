@@ -1,0 +1,51 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-05 15:03:40.606484",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "column_break_zkrc",
+  "solution_name",
+  "solution_description"
+ ],
+ "fields": [
+  {
+   "columns": 8,
+   "fieldname": "solution_name",
+   "fieldtype": "Data",
+   "in_filter": 1,
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Solution Name",
+   "reqd": 1
+  },
+  {
+   "columns": 8,
+   "fieldname": "solution_description",
+   "fieldtype": "Text Editor",
+   "in_global_search": 1,
+   "in_preview": 1,
+   "label": "Solution Description"
+  },
+  {
+   "allow_in_quick_entry": 1,
+   "fieldname": "column_break_zkrc",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-20 07:48:29.306060",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Local Solution",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

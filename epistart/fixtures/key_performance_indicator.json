@@ -1,0 +1,44 @@
+[
+ {
+  "current_value": 0.0,
+  "description": "The total cost of acquiring a new customer, including marketing and sales expenses.",
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Customer Acquisition Cost (CAC)",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-20 11:51:24.393885",
+  "name": "m7us7lr959",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "current_value": 0.0,
+  "description": "The total revenue a business expects to earn from a customer over the entire period of their relationship.",
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Lifetime Value (LTV)",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-20 11:51:59.570944",
+  "name": "m89rbpkafa",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "current_value": 0.0,
+  "description": "The percentage of customers who stop using a product or service within a given period.",
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Churn Rate",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-20 11:52:22.053779",
+  "name": "m8gsdj5te4",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ }
+]

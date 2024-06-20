@@ -1,0 +1,82 @@
+[
+ {
+  "cost_structure_name": "Operational Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Ongoing expenses necessary to run the business, such as salaries, office rent, utilities, and administrative expenses.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:25:22.124818",
+  "name": "loml0u7af7"
+ },
+ {
+  "cost_structure_name": "Customer Support Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Expenses related to providing customer service and support, including hiring support staff, maintaining helpdesk systems, and training.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:33:08.183524",
+  "name": "lt898kmnbq"
+ },
+ {
+  "cost_structure_name": "Research and Development (R&D) Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Investments in innovation and development of new products or services, including costs for research personnel, prototypes, and testing.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:35:19.740499",
+  "name": "luhdq801vq"
+ },
+ {
+  "cost_structure_name": "Infrastructure Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Expenses for maintaining the physical and IT infrastructure, such as servers, cloud services, network equipment, and facility maintenance.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:36:05.808579",
+  "name": "luvq0t4137"
+ },
+ {
+  "cost_structure_name": "Supply Chain and Logistics Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Costs related to the procurement, storage, and distribution of products, including shipping, warehousing, and inventory management.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:36:37.129818",
+  "name": "lv9jqvglhr"
+ },
+ {
+  "cost_structure_name": "Legal and Compliance Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Expenses for legal services, compliance with regulations, intellectual property protection, and insurance.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:37:00.298090",
+  "name": "lvgqicd697"
+ },
+ {
+  "cost_structure_name": "Training and Development Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Investments in employee training and professional development, including workshops, courses, certifications, and on-the-job training programs.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:37:50.197323",
+  "name": "m00d4bhc13"
+ },
+ {
+  "cost_structure_name": "Marketing and Sales Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Costs associated with promoting and selling the product or service, including advertising, sales commissions, public relations, and promotional events.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:31:20.776462",
+  "name": "ls6npa14ae"
+ },
+ {
+  "cost_structure_name": "Customer Acquisition Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>The costs involved in acquiring new customers, including marketing campaigns, sales incentives, and onboarding processes.</p><p><br></p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:32:33.233244",
+  "name": "lstcdi6cc5"
+ },
+ {
+  "cost_structure_name": "Development Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Expenses related to the creation and enhancement of the product or service, including software development, hardware procurement, and related technology expenses.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 09:49:39.503311",
+  "name": "k0k3ib5tf1"
+ }
+]

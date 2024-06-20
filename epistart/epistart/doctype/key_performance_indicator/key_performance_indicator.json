@@ -11,6 +11,7 @@
   "current_value",
   "measurement_period",
   "kpi_status",
+  "unit_of_measure",
   "kpi_values"
  ],
  "fields": [
@@ -32,6 +33,7 @@
   {
    "fieldname": "current_value",
    "fieldtype": "Float",
+   "is_virtual": 1,
    "label": "Current Value"
   },
   {
@@ -51,11 +53,17 @@
    "fieldtype": "Table",
    "label": "KPI Values",
    "options": "KPI Value"
+  },
+  {
+   "fieldname": "unit_of_measure",
+   "fieldtype": "Link",
+   "label": "Unit of Measure",
+   "options": "Unit of Measure"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-12 20:54:14.401917",
+ "modified": "2024-06-20 12:14:10.392150",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Key Performance Indicator",
@@ -74,7 +82,9 @@
    "write": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "kpi_name"
 }

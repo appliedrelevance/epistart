@@ -1,41 +1,31 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "format:ESLC-CSEG-{####}",
- "creation": "2024-06-13 00:28:43.956783",
+ "creation": "2024-06-20 08:37:55.843988",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
-  "customer_segment_name",
-  "description",
-  "demographics"
+  "revenue_stream_name",
+  "description"
  ],
  "fields": [
   {
-   "fieldname": "customer_segment_name",
+   "fieldname": "revenue_stream_name",
    "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Customer Segment Name"
+   "label": "Revenue Stream Name"
   },
   {
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Description"
-  },
-  {
-   "fieldname": "demographics",
-   "fieldtype": "Table",
-   "label": "Demographics",
-   "options": "Local Persona"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-20 14:52:35.301947",
+ "modified": "2024-06-20 10:10:11.465696",
  "modified_by": "Administrator",
  "module": "EpiStart",
- "name": "Customer Segment",
- "naming_rule": "Expression",
+ "name": "Revenue Stream",
  "owner": "Administrator",
  "permissions": [
   {
@@ -52,9 +42,10 @@
   }
  ],
  "quick_entry": 1,
+ "show_preview_popup": 1,
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "customer_segment_name"
+ "title_field": "revenue_stream_name"
 }

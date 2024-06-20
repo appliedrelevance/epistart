@@ -1,0 +1,20 @@
+[
+ {
+  "category_description": "For measurements of ratios, proportions and percentages. ",
+  "category_name": "Magnitude",
+  "docstatus": 0,
+  "doctype": "Unit of Measure Category",
+  "modified": "2024-06-20 12:25:53.984775",
+  "name": "Magnitude",
+  "system_uom_category": null
+ },
+ {
+  "category_description": "Measures of Money",
+  "category_name": "Currency",
+  "docstatus": 0,
+  "doctype": "Unit of Measure Category",
+  "modified": "2024-06-20 12:17:15.028967",
+  "name": "Currency",
+  "system_uom_category": null
+ }
+]

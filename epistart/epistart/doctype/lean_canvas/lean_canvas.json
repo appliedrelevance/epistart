@@ -1,5 +1,6 @@
 {
  "actions": [],
+ "allow_guest_to_view": 1,
  "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:ESLC-{#####}",
@@ -15,10 +16,12 @@
   "logo",
   "column_break_jhdu",
   "designed_by",
+  "published",
   "section_break_dxdl",
   "preview",
   "section_break_oasi",
   "amended_from",
+  "route",
   "technical_tab",
   "section_break_kwvj",
   "problems",
@@ -42,14 +45,14 @@
    "fieldname": "problems",
    "fieldtype": "Table",
    "label": "Problems",
-   "options": "Problem"
+   "options": "Local Problem"
   },
   {
    "description": "Top 3 features",
    "fieldname": "solutions",
    "fieldtype": "Table",
    "label": "Solutions",
-   "options": "Solution"
+   "options": "Local Solution"
   },
   {
    "description": "Single, clear compelling messages that states why you are different and worth buying.",
@@ -60,14 +63,14 @@
   {
    "description": "Can't be easily copied or bought.",
    "fieldname": "unfair_advantage",
-   "fieldtype": "Small Text",
+   "fieldtype": "Text Editor",
    "label": "Unfair Advantage"
   },
   {
    "fieldname": "customer_segments",
    "fieldtype": "Table",
    "label": "Customer Segments",
-   "options": "Lean Canvas Customer Segment"
+   "options": "Local Customer Segment"
   },
   {
    "fieldname": "section_break_qpuf",
@@ -77,8 +80,9 @@
   {
    "description": "Customer acquisition costs, Distribution Costs, hosting, People, Etc.",
    "fieldname": "cost_structure",
-   "fieldtype": "Small Text",
-   "label": "Cost Structure"
+   "fieldtype": "Table",
+   "label": "Cost Structure",
+   "options": "Local Cost Structure"
   },
   {
    "fieldname": "column_break_tyfu",
@@ -87,21 +91,22 @@
   {
    "description": "Revenue model, Lifetime value, Revenue, Gross Margin",
    "fieldname": "revenue_streams",
-   "fieldtype": "Small Text",
-   "label": "Revenue Streams"
+   "fieldtype": "Table",
+   "label": "Revenue Streams",
+   "options": "Local Revenue Stream"
   },
   {
    "fieldname": "key_metrics",
    "fieldtype": "Table",
    "label": "Key Metrics",
-   "options": "Lean Canvas KPI"
+   "options": "Local Key Performance Indicator"
   },
   {
    "description": "Path to Customers",
    "fieldname": "channels",
    "fieldtype": "Table",
    "label": "Channels",
-   "options": "Lean Canvas Channel"
+   "options": "Local Channel"
   },
   {
    "fieldname": "column_break_jhdu",
@@ -182,18 +187,30 @@
    "fieldtype": "Section Break"
   },
   {
-   "default": "    <h1>Lean Canvas for {{ doc.startup_name }}</h1>\n    <div class=\"lean-canvas\">\n        <div>\n            <div class=\"section-title\">Problem</div>\n            {% for row in doc.problems %}\n                <p>{{ row.problem }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Solution</div>\n            {% for row in doc.solutions %}\n                <p>{{ row.solution }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Key Metrics</div>\n            <p>{{ doc.key_metrics }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unique Value Proposition</div>\n            <p>{{ doc.unique_value_proposition }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unfair Advantage</div>\n            <p>{{ doc.unfair_advantage }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Channels</div>\n            <p>{{ doc.channels }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Customer Segments</div>\n            <p>{{ doc.customer_segments }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Cost Structure</div>\n            <p>{{ doc.cost_structure }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Revenue Streams</div>\n            <p>{{ doc.revenue_streams }}</p>\n        </div>\n    </div>\n\n",
    "fieldname": "preview",
    "fieldtype": "HTML",
-   "label": "Preview"
+   "label": "Preview",
+   "options": "    <h1>Lean Canvas for {{ doc.startup_name }}</h1>\n    <div class=\"lean-canvas\">\n        <div>\n            <div class=\"section-title\">Problem</div>\n            {% for row in doc.problems %}\n                <p>{{ row.problem }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Solution</div>\n            {% for row in doc.solutions %}\n                <p>{{ row.solution }}</p>\n            {% endfor %}\n        </div>\n        <div>\n            <div class=\"section-title\">Key Metrics</div>\n            <p>{{ doc.key_metrics }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unique Value Proposition</div>\n            <p>{{ doc.unique_value_proposition }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Unfair Advantage</div>\n            <p>{{ doc.unfair_advantage }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Channels</div>\n            <p>{{ doc.channels }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Customer Segments</div>\n            <p>{{ doc.customer_segments }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Cost Structure</div>\n            <p>{{ doc.cost_structure }}</p>\n        </div>\n        <div>\n            <div class=\"section-title\">Revenue Streams</div>\n            <p>{{ doc.revenue_streams }}</p>\n        </div>\n    </div>\n\n"
+  },
+  {
+   "default": "0",
+   "fieldname": "published",
+   "fieldtype": "Check",
+   "label": "Published"
+  },
+  {
+   "fieldname": "route",
+   "fieldtype": "Data",
+   "label": "Route"
   }
  ],
+ "has_web_view": 1,
  "image_field": "logo",
  "index_web_pages_for_search": 1,
- "is_submittable": 1,
+ "is_published_field": "published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2024-06-13 00:34:02.935436",
+ "modified": "2024-06-20 14:11:57.566578",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Lean Canvas",
@@ -237,6 +254,7 @@
    "write": 1
   }
  ],
+ "route": "lean-canvas",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

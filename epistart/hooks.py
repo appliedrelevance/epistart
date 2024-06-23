@@ -6,7 +6,7 @@ app_email = "geveritt@appliedrelevance.com"
 app_license = "mit"
 
 fixtures = [
-    {"doctype": "Workspace", "filters": {"name": ["in", ["Epinomy", "EpiStart"]]}},
+    {"doctype": "Workspace", "filters": {"name": ["in", [ "EpiStart"]]}},
     {
         "doctype": "Role",
         "filters": {"name": ["in", ["EpiStart User", "EpiStart Administrator"]]},

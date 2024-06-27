@@ -30,7 +30,10 @@
   "technical_narrative",
   "platform_elements",
   "milestones_tab",
-  "project"
+  "project",
+  "tasks_and_epics_section",
+  "tasks",
+  "epics"
  ],
  "fields": [
   {
@@ -165,11 +168,28 @@
    "fieldname": "uiux_mockup",
    "fieldtype": "Attach",
    "label": "UI/UX Mockup"
+  },
+  {
+   "fieldname": "tasks_and_epics_section",
+   "fieldtype": "Section Break",
+   "label": "Tasks and Epics"
+  },
+  {
+   "fieldname": "tasks",
+   "fieldtype": "Table",
+   "label": "Tasks",
+   "options": "Local Task"
+  },
+  {
+   "fieldname": "epics",
+   "fieldtype": "Table",
+   "label": "Epics",
+   "options": "Local Epic"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 12:13:21.195605",
+ "modified": "2024-06-27 12:28:54.128375",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements Document",

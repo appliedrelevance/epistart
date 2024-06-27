@@ -1,7 +1,7 @@
 // Copyright (c) 2024, Applied Relevance and contributors
 // For license information, please see license.txt
 
-// frappe.ui.form.on("Product Requirements Document", {
+// frappe.ui.form.on("Local Activity", {
 // 	refresh(frm) {
 
 // 	},

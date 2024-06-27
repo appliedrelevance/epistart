@@ -63,9 +63,9 @@
             {
                 "hidden": 0,
                 "is_query_report": 0,
-                "label": "Product Requirements Document",
+                "label": "Product Requirements",
                 "link_count": 0,
-                "link_to": "Product Requirements Document",
+                "link_to": "Product Requirements",
                 "link_type": "DocType",
                 "onboard": 0,
                 "type": "Link"
@@ -316,7 +316,7 @@
                 "color": "Green",
                 "doc_view": "List",
                 "label": "New Product Requirements",
-                "link_to": "Product Requirements Document",
+                "link_to": "Product Requirements",
                 "type": "DocType"
             },
             {

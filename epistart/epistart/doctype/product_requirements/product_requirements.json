@@ -8,7 +8,9 @@
  "field_order": [
   "product_name",
   "column_break_qtjk",
-  "lean_canvas_link",
+  "canvas_type",
+  "column_break_layu",
+  "canvas_link",
   "section_break_ifsv",
   "abstract",
   "narrative",
@@ -32,8 +34,7 @@
   "milestones_tab",
   "project",
   "tasks_and_epics_section",
-  "tasks",
-  "epics"
+  "activities"
  ],
  "fields": [
   {
@@ -155,12 +156,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "lean_canvas_link",
-   "fieldtype": "Link",
-   "label": "Lean Canvas Link",
-   "options": "Lean Canvas"
-  },
-  {
    "fieldname": "section_break_ifsv",
    "fieldtype": "Section Break"
   },
@@ -175,24 +170,35 @@
    "label": "Tasks and Epics"
   },
   {
-   "fieldname": "tasks",
+   "fieldname": "activities",
    "fieldtype": "Table",
-   "label": "Tasks",
-   "options": "Local Task"
+   "label": "Activities",
+   "options": "Local Activity"
   },
   {
-   "fieldname": "epics",
-   "fieldtype": "Table",
-   "label": "Epics",
-   "options": "Local Epic"
+   "default": "Lean Canvas",
+   "fieldname": "canvas_type",
+   "fieldtype": "Select",
+   "label": "Canvas Type",
+   "options": "Lean Canvas\nBusiness Model Canvas"
+  },
+  {
+   "fieldname": "column_break_layu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "canvas_link",
+   "fieldtype": "Dynamic Link",
+   "label": "Canvas Link",
+   "options": "canvas_type"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 12:28:54.128375",
+ "modified": "2024-06-27 16:50:21.074900",
  "modified_by": "Administrator",
  "module": "EpiStart",
- "name": "Product Requirements Document",
+ "name": "Product Requirements",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

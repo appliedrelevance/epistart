@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class CoreOfferings(Document):
+class LocalCustomerRelationship(Document):
 	pass

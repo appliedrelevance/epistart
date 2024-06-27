@@ -1,0 +1,211 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:BMC-{#####}",
+ "creation": "2024-06-29 16:00:00",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "date",
+  "column_break_kart",
+  "company",
+  "status",
+  "value_propositions_section",
+  "value_proposition",
+  "key_partners_section",
+  "key_partners",
+  "key_activities_section",
+  "key_activities",
+  "key_resources_section",
+  "key_resources",
+  "customer_relationships_section",
+  "customer_relationships",
+  "channels_section",
+  "channels",
+  "customer_segments_section",
+  "customer_segments",
+  "cost_structure_section",
+  "cost_structures",
+  "revenue_streams_section",
+  "revenue_streams"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nReviewed\nApproved\nArchived"
+  },
+  {
+   "fieldname": "key_partners_section",
+   "fieldtype": "Section Break",
+   "label": "Key Partners"
+  },
+  {
+   "fieldname": "key_partners",
+   "fieldtype": "Table",
+   "label": "Key Partners",
+   "options": "Local Partner"
+  },
+  {
+   "fieldname": "key_activities_section",
+   "fieldtype": "Section Break",
+   "label": "Key Activities"
+  },
+  {
+   "fieldname": "key_activities",
+   "fieldtype": "Table",
+   "label": "Key Activities",
+   "options": "Local Activity"
+  },
+  {
+   "fieldname": "key_resources_section",
+   "fieldtype": "Section Break",
+   "label": "Key Resources"
+  },
+  {
+   "fieldname": "key_resources",
+   "fieldtype": "Table",
+   "label": "Key Resources",
+   "options": "Local Resource"
+  },
+  {
+   "fieldname": "value_propositions_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "value_proposition",
+   "fieldtype": "Text Editor",
+   "label": "Value Proposition"
+  },
+  {
+   "fieldname": "customer_relationships_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Relationships"
+  },
+  {
+   "fieldname": "customer_relationships",
+   "fieldtype": "Table",
+   "label": "Customer Relationships",
+   "options": "Local Customer Relationship"
+  },
+  {
+   "fieldname": "channels_section",
+   "fieldtype": "Section Break",
+   "label": "Channels"
+  },
+  {
+   "fieldname": "channels",
+   "fieldtype": "Table",
+   "label": "Channels",
+   "options": "Local Channel"
+  },
+  {
+   "fieldname": "customer_segments_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Segments"
+  },
+  {
+   "fieldname": "customer_segments",
+   "fieldtype": "Table",
+   "label": "Customer Segments",
+   "options": "Local Customer Segment"
+  },
+  {
+   "fieldname": "cost_structure_section",
+   "fieldtype": "Section Break",
+   "label": "Cost Structure"
+  },
+  {
+   "fieldname": "cost_structures",
+   "fieldtype": "Table",
+   "label": "Cost Structures",
+   "options": "Local Cost Structure"
+  },
+  {
+   "fieldname": "revenue_streams_section",
+   "fieldtype": "Section Break",
+   "label": "Revenue Streams"
+  },
+  {
+   "fieldname": "revenue_streams",
+   "fieldtype": "Table",
+   "label": "Revenue Streams",
+   "options": "Local Revenue Stream"
+  },
+  {
+   "fieldname": "column_break_kart",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-06-27 11:37:42.661477",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Business Model Canvas",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart User",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

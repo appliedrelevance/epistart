@@ -138,12 +138,12 @@
    "fieldname": "core_offerings",
    "fieldtype": "Table",
    "label": "Products and Services",
-   "options": "Core Offerings"
+   "options": "Core Offering"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-05 17:41:44.191455",
+ "modified": "2024-06-27 11:58:52.833917",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Competitor Analysis",

@@ -14,12 +14,13 @@
    "fieldname": "title",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Title"
+   "label": "Title",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-22 17:39:38.843028",
+ "modified": "2024-06-27 12:01:51.668362",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Epic",
@@ -63,6 +64,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],

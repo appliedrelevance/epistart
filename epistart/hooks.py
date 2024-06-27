@@ -6,7 +6,7 @@ app_email = "geveritt@appliedrelevance.com"
 app_license = "mit"
 
 fixtures = [
-    {"doctype": "Workspace", "filters": {"name": ["in", [ "EpiStart"]]}},
+    {"doctype": "Workspace", "filters": {"name": ["in", ["EpiStart"]]}},
     {
         "doctype": "Role",
         "filters": {"name": ["in", ["EpiStart User", "EpiStart Administrator"]]},
@@ -18,9 +18,9 @@ fixtures = [
     {"doctype": "Customer Segment"},
     {"doctype": "Channel"},
     {"doctype": "Unit of Measure"},
-    {"doctype": "Unit of Measure Category"}
+    {"doctype": "Unit of Measure Category"},
 ]
-# required_apps = []
+required_apps = ["erpnext"]
 
 # Includes in <head>
 # ------------------

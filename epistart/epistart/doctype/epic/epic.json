@@ -1,70 +1,167 @@
 {
- "actions": [],
- "allow_import": 1,
- "allow_rename": 1,
- "autoname": "format:EPIC-{#####}",
- "creation": "2024-04-06 18:57:52.577968",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "title"
- ],
- "fields": [
-  {
-   "fieldname": "title",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Title"
-  }
- ],
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-04-22 17:39:38.843028",
- "modified_by": "Administrator",
- "module": "EpiStart",
- "name": "Epic",
- "naming_rule": "Expression",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "EpiStart Administrator",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "EpiStart User",
-   "share": 1,
-   "write": 1
-  }
- ],
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": [],
- "track_changes": 1
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "field:epic_name",
+    "creation": "2024-07-01 09:00:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "epic_name",
+        "description",
+        "status",
+        "priority",
+        "product_requirements_document",
+        "column_break_5",
+        "start_date",
+        "end_date",
+        "owner",
+        "section_break_9",
+        "user_stories",
+        "section_break_11",
+        "tasks",
+        "section_break_13",
+        "notes"
+    ],
+    "fields": [
+        {
+            "fieldname": "epic_name",
+            "fieldtype": "Data",
+            "label": "Epic Name",
+            "unique": 1,
+            "reqd": 1,
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Text Editor",
+            "label": "Description"
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "label": "Status",
+            "options": "Not Started\nIn Progress\nCompleted\nOn Hold",
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "priority",
+            "fieldtype": "Select",
+            "label": "Priority",
+            "options": "Low\nMedium\nHigh\nUrgent",
+            "in_list_view": 1,
+            "in_standard_filter": 1
+        },
+        {
+            "fieldname": "product_requirements_document",
+            "fieldtype": "Link",
+            "label": "Product Requirements Document",
+            "options": "Product Requirements Document"
+        },
+        {
+            "fieldname": "column_break_5",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "start_date",
+            "fieldtype": "Date",
+            "label": "Start Date"
+        },
+        {
+            "fieldname": "end_date",
+            "fieldtype": "Date",
+            "label": "End Date"
+        },
+        {
+            "fieldname": "owner",
+            "fieldtype": "Link",
+            "label": "Owner",
+            "options": "User"
+        },
+        {
+            "fieldname": "section_break_9",
+            "fieldtype": "Section Break",
+            "label": "User Stories"
+        },
+        {
+            "fieldname": "user_stories",
+            "fieldtype": "Table",
+            "label": "User Stories",
+            "options": "Local User Story"
+        },
+        {
+            "fieldname": "section_break_11",
+            "fieldtype": "Section Break",
+            "label": "Tasks"
+        },
+        {
+            "fieldname": "tasks",
+            "fieldtype": "Table",
+            "label": "Tasks",
+            "options": "Local Task"
+        },
+        {
+            "fieldname": "section_break_13",
+            "fieldtype": "Section Break",
+            "label": "Additional Details"
+        },
+        {
+            "fieldname": "notes",
+            "fieldtype": "Text Editor",
+            "label": "Notes"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-07-01 09:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "EpiStart",
+    "name": "Epic",
+    "name_case": "Title Case",
+    "naming_rule": "By fieldname",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "EpiStart Administrator",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "EpiStart User",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "track_changes": 1,
+    "track_seen": 1,
+    "track_views": 1
 }

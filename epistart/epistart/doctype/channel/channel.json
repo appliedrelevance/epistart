@@ -7,14 +7,16 @@
  "engine": "InnoDB",
  "field_order": [
   "channel_name",
-  "description",
-  "channel_type"
+  "channel_type",
+  "description"
  ],
  "fields": [
   {
    "fieldname": "channel_name",
    "fieldtype": "Data",
-   "label": "Channel Name"
+   "in_list_view": 1,
+   "label": "Channel Name",
+   "reqd": 1
   },
   {
    "fieldname": "description",
@@ -24,13 +26,15 @@
   {
    "fieldname": "channel_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Channel Type",
-   "options": "Online\nOffline\nDirect"
+   "options": "Online\nOffline\nDirect",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-20 17:57:05.072598",
+ "modified": "2024-06-27 11:55:13.285127",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Channel",
@@ -74,6 +78,7 @@
    "write": 1
   }
  ],
+ "quick_entry": 1,
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

@@ -1,146 +1,332 @@
-{
- "charts": [],
- "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.&nbsp;&nbsp;\",\"col\":12}},{\"id\":\"7QNShP0m7-\",\"type\":\"card\",\"data\":{\"card_name\":\"Product\",\"col\":4}},{\"id\":\"to8yED_kmG\",\"type\":\"card\",\"data\":{\"card_name\":\"Financial\",\"col\":4}},{\"id\":\"hQD-MfbgzW\",\"type\":\"card\",\"data\":{\"card_name\":\"People\",\"col\":4}},{\"id\":\"V-cSUzINWy\",\"type\":\"card\",\"data\":{\"card_name\":\"Market\",\"col\":4}}]",
- "creation": "2024-06-20 16:55:20.938569",
- "custom_blocks": [],
- "docstatus": 0,
- "doctype": "Workspace",
- "for_user": "",
- "hide_custom": 0,
- "icon": "milestone",
- "idx": 0,
- "indicator_color": "green",
- "is_hidden": 0,
- "label": "EpiStart",
- "links": [
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Financial",
-   "link_count": 2,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Cost Structures",
-   "link_count": 0,
-   "link_to": "Cost Structure",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Revenue Streams",
-   "link_count": 0,
-   "link_to": "Revenue Stream",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "People",
-   "link_count": 3,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Personas",
-   "link_count": 0,
-   "link_to": "Persona",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Interviewees",
-   "link_count": 0,
-   "link_to": "Interviewee",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "User Stories",
-   "link_count": 0,
-   "link_to": "User Story",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Product",
-   "link_count": 2,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Lean Canvases",
-   "link_count": 0,
-   "link_to": "Lean Canvas",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Product Requirements Document",
-   "link_count": 0,
-   "link_to": "Product Requirements Document",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Market",
-   "link_count": 1,
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Channels",
-   "link_count": 0,
-   "link_to": "Channel",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  }
- ],
- "modified": "2024-06-20 17:32:27.051218",
- "modified_by": "Administrator",
- "module": "EpiStart",
- "name": "EpiStart",
- "number_cards": [],
- "owner": "Administrator",
- "parent_page": "Epinomy",
- "public": 1,
- "quick_lists": [],
- "roles": [],
- "sequence_id": 37.0,
- "shortcuts": [],
- "title": "EpiStart"
-}
+[
+    {
+        "charts": [],
+        "content": "[{\"id\":\"oft07gFmzW\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"1-vLnmIJR2\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart is a set of doctypes for tracking a startup using the Lean Startup methodology.\",\"col\":12}},{\"id\":\"7QNShP0m7-\",\"type\":\"card\",\"data\":{\"card_name\":\"Strategy\",\"col\":4}},{\"id\":\"to8yED_kmG\",\"type\":\"card\",\"data\":{\"card_name\":\"Product\",\"col\":4}},{\"id\":\"hQD-MfbgzW\",\"type\":\"card\",\"data\":{\"card_name\":\"Market\",\"col\":4}},{\"id\":\"V-cSUzINWy\",\"type\":\"card\",\"data\":{\"card_name\":\"People\",\"col\":4}},{\"id\":\"K-dLMfbgzX\",\"type\":\"card\",\"data\":{\"card_name\":\"Financial\",\"col\":4}},{\"id\":\"L-eSUzINXz\",\"type\":\"card\",\"data\":{\"card_name\":\"Resources\",\"col\":4}}]",
+        "custom_blocks": [],
+        "docstatus": 0,
+        "doctype": "Workspace",
+        "for_user": "",
+        "hide_custom": 0,
+        "icon": "milestone",
+        "indicator_color": "green",
+        "is_hidden": 0,
+        "label": "EpiStart",
+        "links": [
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Strategy",
+                "link_count": 3,
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Card Break"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Lean Canvas",
+                "link_count": 0,
+                "link_to": "Lean Canvas",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Business Model Canvas",
+                "link_count": 0,
+                "link_to": "Business Model Canvas",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Competitor Analysis",
+                "link_count": 0,
+                "link_to": "Competitor Analysis",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Product",
+                "link_count": 5,
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Card Break"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Product Requirements Document",
+                "link_count": 0,
+                "link_to": "Product Requirements Document",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "User Story",
+                "link_count": 0,
+                "link_to": "User Story",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Epic",
+                "link_count": 0,
+                "link_to": "Epic",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Feature Group",
+                "link_count": 0,
+                "link_to": "Feature Group",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "UI Screen",
+                "link_count": 0,
+                "link_to": "UI Screen",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Market",
+                "link_count": 4,
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Card Break"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Customer Segment",
+                "link_count": 0,
+                "link_to": "Customer Segment",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Channel",
+                "link_count": 0,
+                "link_to": "Channel",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Customer Relationship",
+                "link_count": 0,
+                "link_to": "Customer Relationship",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Market Interview",
+                "link_count": 0,
+                "link_to": "Market Interview",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "People",
+                "link_count": 4,
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Card Break"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Persona",
+                "link_count": 0,
+                "link_to": "Persona",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Interviewee",
+                "link_count": 0,
+                "link_to": "Interviewee",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Interviewee Role",
+                "link_count": 0,
+                "link_to": "Interviewee Role",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Persona Role",
+                "link_count": 0,
+                "link_to": "Persona Role",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Financial",
+                "link_count": 3,
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Card Break"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Cost Structure",
+                "link_count": 0,
+                "link_to": "Cost Structure",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Revenue Stream",
+                "link_count": 0,
+                "link_to": "Revenue Stream",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Key Performance Indicator",
+                "link_count": 0,
+                "link_to": "Key Performance Indicator",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Resources",
+                "link_count": 3,
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Card Break"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Unit of Measure",
+                "link_count": 0,
+                "link_to": "Unit of Measure",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Unit of Measure Category",
+                "link_count": 0,
+                "link_to": "Unit of Measure Category",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            },
+            {
+                "hidden": 0,
+                "is_query_report": 0,
+                "label": "Platform Element Type",
+                "link_count": 0,
+                "link_to": "Platform Element Type",
+                "link_type": "DocType",
+                "onboard": 0,
+                "type": "Link"
+            }
+        ],
+        "modified": "2024-06-29 10:00:00.000000",
+        "module": "EpiStart",
+        "name": "EpiStart",
+        "number_cards": [],
+        "owner": "Administrator",
+        "parent_page": "Epinomy",
+        "public": 1,
+        "quick_lists": [],
+        "roles": [],
+        "sequence_id": 37.0,
+        "shortcuts": [
+            {
+                "color": "Blue",
+                "doc_view": "List",
+                "label": "New Lean Canvas",
+                "link_to": "Lean Canvas",
+                "type": "DocType"
+            },
+            {
+                "color": "Blue",
+                "doc_view": "List",
+                "label": "New Business Model Canvas",
+                "link_to": "Business Model Canvas",
+                "type": "DocType"
+            },
+            {
+                "color": "Green",
+                "doc_view": "List",
+                "label": "New Product Requirements",
+                "link_to": "Product Requirements Document",
+                "type": "DocType"
+            },
+            {
+                "color": "Orange",
+                "doc_view": "List",
+                "label": "New Market Interview",
+                "link_to": "Market Interview",
+                "type": "DocType"
+            }
+        ],
+        "title": "EpiStart"
+    }
+]

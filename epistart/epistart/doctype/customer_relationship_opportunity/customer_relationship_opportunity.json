@@ -1,0 +1,62 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2024-06-29 12:00:00.000000",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "opportunity",
+        "status",
+        "expected_closing",
+        "probability",
+        "notes"
+    ],
+    "fields": [
+        {
+            "fieldname": "opportunity",
+            "fieldtype": "Link",
+            "in_list_view": 1,
+            "label": "Opportunity",
+            "options": "Opportunity",
+            "reqd": 1
+        },
+        {
+            "fieldname": "status",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Status",
+            "options": "Open\nQuotation\nConverted\nLost\nClosed",
+            "fetch_from": "opportunity.status"
+        },
+        {
+            "fieldname": "expected_closing",
+            "fieldtype": "Date",
+            "label": "Expected Closing",
+            "fetch_from": "opportunity.expected_closing_date"
+        },
+        {
+            "fieldname": "probability",
+            "fieldtype": "Percent",
+            "label": "Probability",
+            "fetch_from": "opportunity.probability"
+        },
+        {
+            "fieldname": "notes",
+            "fieldtype": "Small Text",
+            "label": "Notes"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "istable": 1,
+    "links": [],
+    "modified": "2024-06-29 12:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "EpiStart",
+    "name": "Customer Relationship Opportunity",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

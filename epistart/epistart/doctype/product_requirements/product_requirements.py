@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class ProductRequirementsDocument(Document):
-	pass
+class ProductRequirements(Document):
+    pass

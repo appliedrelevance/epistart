@@ -10,7 +10,7 @@
         "description",
         "status",
         "priority",
-        "product_requirements_document",
+        "product_requirements",
         "column_break_5",
         "start_date",
         "end_date",
@@ -54,10 +54,10 @@
             "in_standard_filter": 1
         },
         {
-            "fieldname": "product_requirements_document",
+            "fieldname": "product_requirements",
             "fieldtype": "Link",
-            "label": "Product Requirements Document",
-            "options": "Product Requirements Document"
+            "label": "Product Requirements",
+            "options": "Product Requirements"
         },
         {
             "fieldname": "column_break_5",
@@ -99,7 +99,7 @@
             "fieldname": "tasks",
             "fieldtype": "Table",
             "label": "Tasks",
-            "options": "Local Task"
+            "options": "Local Activity"
         },
         {
             "fieldname": "section_break_13",

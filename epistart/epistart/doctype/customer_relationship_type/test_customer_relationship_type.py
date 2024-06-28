@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestResource(FrappeTestCase):
+class TestCustomerRelationshipType(FrappeTestCase):
 	pass

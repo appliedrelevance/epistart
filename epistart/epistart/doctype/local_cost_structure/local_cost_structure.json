@@ -11,16 +11,22 @@
  ],
  "fields": [
   {
-   "fetch_from": "cost_structure_link.description",
+   "allow_in_quick_entry": 1,
+   "columns": 8,
+   "fetch_from": "cost_structure.description",
    "fetch_if_empty": 1,
    "fieldname": "description",
    "fieldtype": "Text Editor",
+   "in_list_view": 1,
    "label": "Description"
   },
   {
+   "allow_in_quick_entry": 1,
+   "columns": 2,
    "fieldname": "cost_structure",
    "fieldtype": "Link",
    "in_list_view": 1,
+   "in_preview": 1,
    "label": "Cost Structure",
    "options": "Cost Structure",
    "reqd": 1
@@ -29,7 +35,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-20 16:08:46.685147",
+ "modified": "2024-06-28 11:18:33.901950",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Cost Structure",

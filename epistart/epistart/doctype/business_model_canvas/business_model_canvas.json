@@ -35,6 +35,7 @@
    "fieldname": "title",
    "fieldtype": "Data",
    "in_list_view": 1,
+   "in_preview": 1,
    "label": "Title",
    "reqd": 1
   },
@@ -96,6 +97,7 @@
   {
    "fieldname": "value_proposition",
    "fieldtype": "Text Editor",
+   "in_preview": 1,
    "label": "Value Proposition"
   },
   {
@@ -160,7 +162,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 11:37:42.661477",
+ "modified": "2024-06-28 09:56:39.513856",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Business Model Canvas",
@@ -204,8 +206,11 @@
    "write": 1
   }
  ],
+ "show_preview_popup": 1,
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
+ "title_field": "title",
  "track_changes": 1
 }

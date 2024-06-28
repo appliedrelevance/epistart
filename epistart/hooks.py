@@ -19,6 +19,7 @@ fixtures = [
     {"doctype": "Channel"},
     {"doctype": "Unit of Measure"},
     {"doctype": "Unit of Measure Category"},
+    {"doctype": "Customer Relationship Type"},
 ]
 required_apps = ["erpnext"]
 

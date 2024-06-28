@@ -1,0 +1,92 @@
+[
+ {
+  "description": "Direct interaction between customer and company representative, either during the sales process, after the sale, or both.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "In-store sales staff, call center support, email support for complex products.",
+  "modified": "2024-06-28 09:47:46.231051",
+  "name": "Personal Assistance",
+  "relationship_type": "Personal Assistance"
+ },
+ {
+  "description": "A company representative is assigned specifically to an individual client. This is the deepest and most intimate type of relationship.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "Private banking services, personal shoppers in luxury retail, account managers for large B2B clients.",
+  "modified": "2024-06-28 09:47:46.240506",
+  "name": "Dedicated Personal Assistance",
+  "relationship_type": "Dedicated Personal Assistance"
+ },
+ {
+  "description": "The company provides all necessary means for customers to help themselves, with no direct relationship with the company.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "Self-checkout at supermarkets, online FAQ sections, product manuals for self-assembly furniture.",
+  "modified": "2024-06-28 09:47:46.249377",
+  "name": "Self-Service",
+  "relationship_type": "Self-Service"
+ },
+ {
+  "description": "A more sophisticated form of self-service, utilizing automated processes and potentially AI to recognize and serve individual customers.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "Online product recommendations, personalized email marketing campaigns, chatbots for customer service.",
+  "modified": "2024-06-28 09:47:46.257044",
+  "name": "Automated Services",
+  "relationship_type": "Automated Services"
+ },
+ {
+  "description": "Companies facilitate connections between community members, often to help customers solve each other's problems.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "User forums for troubleshooting product issues, social media brand communities, fitness app user groups.",
+  "modified": "2024-06-28 09:47:46.262999",
+  "name": "Communities",
+  "relationship_type": "Communities"
+ },
+ {
+  "description": "Companies involve customers in the creation or design of new products or content, creating value together.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "YouTube's content creation platform, LEGO Ideas for new set designs, open-source software projects.",
+  "modified": "2024-06-28 09:47:46.268943",
+  "name": "Co-creation",
+  "relationship_type": "Co-creation"
+ },
+ {
+  "description": "Customers pay a recurring fee to access a product or service, creating an ongoing relationship.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "Streaming services like Netflix, software-as-a-service products, subscription box services.",
+  "modified": "2024-06-28 09:47:46.274557",
+  "name": "Subscription",
+  "relationship_type": "Subscription"
+ },
+ {
+  "description": "Limited ongoing relationship, focused on individual transactions as needed by the customer.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "One-time purchases at retail stores, occasional service providers like plumbers or electricians.",
+  "modified": "2024-06-28 09:47:46.281515",
+  "name": "Transactional",
+  "relationship_type": "Transactional"
+ },
+ {
+  "description": "Basic services are provided for free, with premium features available for a fee, nurturing potential paying customers.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "Spotify's free and premium tiers, LinkedIn's basic and premium accounts, mobile games with in-app purchases.",
+  "modified": "2024-06-28 09:47:46.288309",
+  "name": "Freemium",
+  "relationship_type": "Freemium"
+ },
+ {
+  "description": "The company provides educational resources to customers, enhancing their ability to use products or services effectively.",
+  "docstatus": 0,
+  "doctype": "Customer Relationship Type",
+  "examples": "Apple's in-store workshops, HubSpot Academy for marketing education, cooking classes by kitchen appliance manufacturers.",
+  "modified": "2024-06-28 09:47:46.299483",
+  "name": "Educational",
+  "relationship_type": "Educational"
+ }
+]

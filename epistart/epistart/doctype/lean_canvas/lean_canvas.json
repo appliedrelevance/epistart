@@ -19,7 +19,6 @@
   "section_break_dxdl",
   "project_overview",
   "section_break_oasi",
-  "preview",
   "route",
   "technical_tab",
   "section_break_kwvj",
@@ -154,12 +153,6 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "preview",
-   "fieldtype": "HTML",
-   "label": "Preview",
-   "options": "<h1>Lean Canvas Analysis of {{ doc.startup_name }}</h1>\n<div class=\"header\">\n    <img src=\"{{ doc.logo }}\" alt=\"{{ doc.startup_name }} logo\" class=\"logo\">\n    <div class=\"document-info\">\n        <h2>{{ doc.name }}</h2>\n        <p>Last Modified: {{ doc.modified }}</p>\n    </div>\n</div>\n<div class=\"lean-canvas\">\n    <div class=\"box problems\">\n        <div class=\"section-title\">Problems</div>\n        {% for row in doc.problems %}\n            <p>{{ row.problem_name }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box customer-segments\">\n        <div class=\"section-title\">Customer Segments</div>\n        {% for row in doc.customer_segments %}\n            <p>{{ frappe.db.get_value(\"Customer Segment\", row.customer_segment, \"customer_segment_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box unique-value-proposition\">\n        <div class=\"section-title\">Unique Value Proposition</div>\n        <p>{{ doc.unique_value_proposition }}</p>\n    </div>\n    <div class=\"box solutions\">\n        <div class=\"section-title\">Solutions</div>\n        {% for row in doc.solutions %}\n            <p>{{ row.solution_name }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box channels\">\n        <div class=\"section-title\">Channels</div>\n        {% for row in doc.channels %}\n            <p>{{ frappe.db.get_value(\"Channel\", row.channel, \"channel_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box cost-structure\">\n        <div class=\"section-title\">Cost Structures</div>\n        {% for row in doc.cost_structures %}\n            <p>{{ frappe.db.get_value(\"Cost Structure\", row.cost_structure, \"cost_structure_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box revenue-streams\">\n        <div class=\"section-title\">Revenue Streams</div>\n        {% for row in doc.revenue_streams %}\n            <p>{{ frappe.db.get_value(\"Revenue Stream\", row.revenue_stream, \"revenue_stream_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box key-metrics\">\n        <div class=\"section-title\">Key Metrics</div>\n        {% for row in doc.key_metrics %}\n            <p>{{ frappe.db.get_value(\"Key Performance Indicator\", row.key_performance_indicator, \"kpi_name\") }}</p>\n        {% endfor %}\n    </div>\n    <div class=\"box unfair-advantage\">\n        <div class=\"section-title\">Unfair Advantage</div>\n        <p>{{ doc.unfair_advantage }}</p>\n    </div>\n</div>\n"
-  },
-  {
    "default": "0",
    "fieldname": "published",
    "fieldtype": "Check",
@@ -195,7 +188,7 @@
  "is_published_field": "published",
  "links": [],
  "make_attachments_public": 1,
- "modified": "2024-06-20 17:38:08.933337",
+ "modified": "2024-06-28 13:16:56.785906",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Lean Canvas",

@@ -18,6 +18,7 @@
  ],
  "fields": [
   {
+   "columns": 2,
    "fieldname": "resource",
    "fieldtype": "Dynamic Link",
    "in_list_view": 1,
@@ -28,6 +29,7 @@
   {
    "fieldname": "quantity",
    "fieldtype": "Float",
+   "in_list_view": 1,
    "label": "Quantity"
   },
   {
@@ -48,11 +50,13 @@
    "options": "Currency"
   },
   {
-   "default": "Resource",
+   "columns": 2,
+   "default": "Employee",
    "fieldname": "resource_type",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Resource Type",
-   "options": "Item\nEmployee\nResource",
+   "options": "Item\nEmployee\nAccount\nAsset",
    "reqd": 1
   },
   {
@@ -64,15 +68,16 @@
    "fieldtype": "Section Break"
   },
   {
+   "columns": 4,
    "fieldname": "canvas_specific_details",
    "fieldtype": "Small Text",
-   "label": "Canvas Specific Details"
+   "label": "Notes"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-27 09:57:48.753775",
+ "modified": "2024-06-28 11:13:34.147893",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Resource",

@@ -1,47 +1,55 @@
 {
-    "actions": [],
-    "allow_rename": 1,
-    "creation": "2024-06-29 11:00:00.000000",
-    "doctype": "DocType",
-    "editable_grid": 1,
-    "engine": "InnoDB",
-    "field_order": [
-        "customer_relationship",
-        "importance",
-        "canvas_specific_notes"
-    ],
-    "fields": [
-        {
-            "fieldname": "customer_relationship",
-            "fieldtype": "Link",
-            "in_list_view": 1,
-            "label": "Customer Relationship",
-            "options": "Customer Relationship",
-            "reqd": 1
-        },
-        {
-            "fieldname": "importance",
-            "fieldtype": "Select",
-            "in_list_view": 1,
-            "label": "Importance",
-            "options": "High\nMedium\nLow"
-        },
-        {
-            "fieldname": "canvas_specific_notes",
-            "fieldtype": "Small Text",
-            "label": "Canvas-Specific Notes"
-        }
-    ],
-    "index_web_pages_for_search": 1,
-    "istable": 1,
-    "links": [],
-    "modified": "2024-06-29 11:00:00.000000",
-    "modified_by": "Administrator",
-    "module": "EpiStart",
-    "name": "Local Customer Relationship",
-    "owner": "Administrator",
-    "permissions": [],
-    "sort_field": "modified",
-    "sort_order": "DESC",
-    "states": []
+ "actions": [],
+ "creation": "2024-07-02 11:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_relationship",
+  "importance",
+  "canvas_specific_notes"
+ ],
+ "fields": [
+  {
+   "columns": 3,
+   "fieldname": "customer_relationship",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Customer Relationship",
+   "options": "Customer Relationship Type",
+   "reqd": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "importance",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "Importance",
+   "options": "High\nMedium\nLow"
+  },
+  {
+   "columns": 6,
+   "fetch_from": "customer_relationship.description",
+   "fieldname": "canvas_specific_notes",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Canvas-Specific Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-28 10:15:11.170020",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Local Customer Relationship",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
 }

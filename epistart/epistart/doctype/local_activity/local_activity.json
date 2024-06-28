@@ -1,81 +1,98 @@
 {
-    "actions": [],
-    "creation": "2024-06-30 16:00:00",
-    "doctype": "DocType",
-    "editable_grid": 1,
-    "engine": "InnoDB",
-    "field_order": [
-        "activity_type",
-        "task",
-        "status",
-        "priority",
-        "column_break_rxaw",
-        "subject",
-        "start_date",
-        "end_date"
-    ],
-    "fields": [
-        {
-            "fieldname": "task",
-            "fieldtype": "Dynamic Link",
-            "in_list_view": 1,
-            "label": "Task or Epic Link",
-            "options": "activity_type",
-            "reqd": 1
-        },
-        {
-            "fetch_from": "task.status",
-            "fieldname": "status",
-            "fieldtype": "Select",
-            "in_list_view": 1,
-            "label": "Status",
-            "options": "Open\nWorking\nPending Review\nOverdue\nCompleted\nCancelled"
-        },
-        {
-            "fetch_from": "task.priority",
-            "fieldname": "priority",
-            "fieldtype": "Select",
-            "in_list_view": 1,
-            "label": "Priority",
-            "options": "Low\nMedium\nHigh\nUrgent"
-        },
-        {
-            "fetch_from": "task.exp_start_date",
-            "fieldname": "start_date",
-            "fieldtype": "Date",
-            "label": "Start Date"
-        },
-        {
-            "fetch_from": "task.exp_end_date",
-            "fieldname": "end_date",
-            "fieldtype": "Date",
-            "label": "End Date"
-        },
-        {
-            "fieldname": "column_break_rxaw",
-            "fieldtype": "Column Break"
-        },
-        {
-            "fieldname": "subject",
-            "fieldtype": "Data",
-            "label": "Subject"
-        },
-        {
-            "fieldname": "activity_type",
-            "fieldtype": "Select",
-            "label": "Activity Type",
-            "options": "Task\nEpic"
-        }
-    ],
-    "istable": 1,
-    "links": [],
-    "modified": "2024-06-27 16:24:34.753836",
-    "modified_by": "Administrator",
-    "module": "EpiStart",
-    "name": "Local Activity",
-    "owner": "Administrator",
-    "permissions": [],
-    "sort_field": "modified",
-    "sort_order": "DESC",
-    "states": []
+ "actions": [],
+ "creation": "2024-06-30 16:00:00",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "task",
+  "priority",
+  "status",
+  "column_break_rxaw",
+  "subject",
+  "start_date",
+  "end_date",
+  "section_break_qsvb",
+  "notes"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "task",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Task",
+   "options": "Task",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "task.status",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_preview": 1,
+   "label": "Status",
+   "options": "Open\nWorking\nPending Review\nOverdue\nCompleted\nCancelled"
+  },
+  {
+   "fetch_from": "task.priority",
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh\nUrgent"
+  },
+  {
+   "fetch_from": "task.exp_start_date",
+   "fetch_if_empty": 1,
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_preview": 1,
+   "label": "Start Date"
+  },
+  {
+   "fetch_from": "task.exp_end_date",
+   "fetch_if_empty": 1,
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_preview": 1,
+   "label": "End Date"
+  },
+  {
+   "fieldname": "column_break_rxaw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "columns": 4,
+   "fetch_from": "task.subject",
+   "fetch_if_empty": 1,
+   "fieldname": "subject",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Subject"
+  },
+  {
+   "fieldname": "section_break_qsvb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "columns": 4,
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Notes"
+  }
+ ],
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-28 10:51:12.695481",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Local Activity",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
 }

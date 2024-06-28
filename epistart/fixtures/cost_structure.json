@@ -1,13 +1,5 @@
 [
  {
-  "cost_structure_name": "Operational Costs",
-  "description": "<div class=\"ql-editor read-mode\"><p>Ongoing expenses necessary to run the business, such as salaries, office rent, utilities, and administrative expenses.</p></div>",
-  "docstatus": 0,
-  "doctype": "Cost Structure",
-  "modified": "2024-06-20 11:25:22.124818",
-  "name": "loml0u7af7"
- },
- {
   "cost_structure_name": "Customer Support Costs",
   "description": "<div class=\"ql-editor read-mode\"><p>Expenses related to providing customer service and support, including hiring support staff, maintaining helpdesk systems, and training.</p></div>",
   "docstatus": 0,
@@ -62,6 +54,14 @@
   "doctype": "Cost Structure",
   "modified": "2024-06-20 11:31:20.776462",
   "name": "ls6npa14ae"
+ },
+ {
+  "cost_structure_name": "Operational Costs",
+  "description": "<div class=\"ql-editor read-mode\"><p>Ongoing expenses necessary to run the business, such as salaries, office rent, utilities, and administrative expenses.</p></div>",
+  "docstatus": 0,
+  "doctype": "Cost Structure",
+  "modified": "2024-06-20 11:25:22.124818",
+  "name": "loml0u7af7"
  },
  {
   "cost_structure_name": "Customer Acquisition Costs",

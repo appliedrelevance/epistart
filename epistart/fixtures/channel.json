@@ -1,14 +1,5 @@
 [
  {
-  "channel_name": "Direct Sales",
-  "channel_type": "Online",
-  "description": "<div class=\"ql-editor read-mode\"><p>Engaging potential customers through face-to-face meetings, phone calls, and personalized email outreach to demonstrate the value of the product and close deals.</p></div>",
-  "docstatus": 0,
-  "doctype": "Channel",
-  "modified": "2024-06-20 15:05:18.248777",
-  "name": "ESLC-CHNL-0017"
- },
- {
   "channel_name": "Online Advertising",
   "channel_type": "Online",
   "description": "<div class=\"ql-editor read-mode\"><p>Using platforms like Google Ads, Facebook Ads, LinkedIn Ads, and other online advertising networks to target specific customer segments with tailored ads.</p></div>",
@@ -16,15 +7,6 @@
   "doctype": "Channel",
   "modified": "2024-06-20 15:05:37.037848",
   "name": "ESLC-CHNL-0018"
- },
- {
-  "channel_name": "Content Marketing",
-  "channel_type": "Online",
-  "description": "<div class=\"ql-editor read-mode\"><p>Creating and distributing valuable, relevant content such as blog posts, whitepapers, case studies, and videos to attract and engage potential customers.</p></div>",
-  "docstatus": 0,
-  "doctype": "Channel",
-  "modified": "2024-06-20 15:06:24.865509",
-  "name": "ESLC-CHNL-0019"
  },
  {
   "channel_name": "Social Media Marketing",
@@ -43,15 +25,6 @@
   "doctype": "Channel",
   "modified": "2024-06-20 15:07:50.950303",
   "name": "ESLC-CHNL-0021"
- },
- {
-  "channel_name": "Partnerships and Alliances",
-  "channel_type": "Offline",
-  "description": "<div class=\"ql-editor read-mode\"><p>Forming strategic partnerships with other companies, industry influencers, and technology providers to reach new audiences and enhance credibility.</p></div>",
-  "docstatus": 0,
-  "doctype": "Channel",
-  "modified": "2024-06-20 15:08:16.002965",
-  "name": "ESLC-CHNL-0022"
  },
  {
   "channel_name": "Events and Trade Shows",
@@ -88,5 +61,32 @@
   "doctype": "Channel",
   "modified": "2024-06-20 15:10:55.684246",
   "name": "ESLC-CHNL-0026"
+ },
+ {
+  "channel_name": "Direct Sales",
+  "channel_type": "Online",
+  "description": "<div class=\"ql-editor read-mode\"><p>Engaging potential customers through face-to-face meetings, phone calls, and personalized email outreach to demonstrate the value of the product and close deals.</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-06-20 15:05:18.248777",
+  "name": "ESLC-CHNL-0017"
+ },
+ {
+  "channel_name": "Content Marketing",
+  "channel_type": "Online",
+  "description": "<div class=\"ql-editor read-mode\"><p>Creating and distributing valuable, relevant content such as blog posts, whitepapers, case studies, and videos to attract and engage potential customers.</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-06-20 15:06:24.865509",
+  "name": "ESLC-CHNL-0019"
+ },
+ {
+  "channel_name": "Partnerships and Alliances",
+  "channel_type": "Offline",
+  "description": "<div class=\"ql-editor read-mode\"><p>Forming strategic partnerships with other companies, industry influencers, and technology providers to reach new audiences and enhance credibility.</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-06-20 15:08:16.002965",
+  "name": "ESLC-CHNL-0022"
  }
 ]

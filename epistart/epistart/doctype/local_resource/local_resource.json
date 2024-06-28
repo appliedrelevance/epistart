@@ -36,7 +36,7 @@
    "fieldname": "unit_of_measure",
    "fieldtype": "Link",
    "label": "Unit of Measure",
-   "options": "Unit of Measure"
+   "options": "UOM"
   },
   {
    "fieldname": "cost",
@@ -77,7 +77,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-28 11:13:34.147893",
+ "modified": "2024-06-28 16:22:48.705213",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Resource",

@@ -1,7 +1,7 @@
 {
  "charts": [],
  "content": "[{\"id\":\"3_fcrW-tAI\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">EpiStart</span>\",\"col\":12}},{\"id\":\"m1kOCM774W\",\"type\":\"paragraph\",\"data\":{\"text\":\"EpiStart provides a comprehensive suite of tools for startups to plan, track, and execute their business strategies using Lean Startup methodologies.\",\"col\":12}},{\"id\":\"UDOWZ-2Wez\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Shortcuts</b></span>\",\"col\":12}},{\"id\":\"LkENb01KSy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Lean Canvas\",\"col\":3}},{\"id\":\"V5STPAPrNW\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Business Model Canvas\",\"col\":3}},{\"id\":\"71c0T16tEr\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Product Requirements Doc\",\"col\":3}},{\"id\":\"FtJRDNiSbi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New Market Interview\",\"col\":3}},{\"id\":\"sqvkJwwVvt\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports &amp; Masters</b></span>\",\"col\":12}},{\"id\":\"rBeb3Db3Np\",\"type\":\"card\",\"data\":{\"card_name\":\"Strategy\",\"col\":4}},{\"id\":\"qX-vkHzNgt\",\"type\":\"card\",\"data\":{\"card_name\":\"Product\",\"col\":4}},{\"id\":\"pPvV7HyXBQ\",\"type\":\"card\",\"data\":{\"card_name\":\"Market\",\"col\":4}},{\"id\":\"Zas5TiQpth\",\"type\":\"card\",\"data\":{\"card_name\":\"People\",\"col\":4}},{\"id\":\"K2kCMuBW1h\",\"type\":\"card\",\"data\":{\"card_name\":\"Financial\",\"col\":4}},{\"id\":\"M5rRFOMar9\",\"type\":\"card\",\"data\":{\"card_name\":\"Resources\",\"col\":4}}]",
- "creation": "2024-06-28 12:30:17.918976",
+ "creation": "2024-06-28 12:53:53.827297",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
@@ -242,30 +242,10 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Resources",
-   "link_count": 3,
+   "link_count": 1,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Units of Measure",
-   "link_count": 0,
-   "link_to": "Unit of Measure",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Unit of Measure Categories",
-   "link_count": 0,
-   "link_to": "Unit of Measure Category",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
   },
   {
    "hidden": 0,
@@ -278,7 +258,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-06-28 12:53:19.836841",
+ "modified": "2024-06-28 16:28:50.274660",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "EpiStart",

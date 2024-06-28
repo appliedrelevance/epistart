@@ -1,5 +1,81 @@
 [
  {
+  "base_doctype": null,
+  "current_value": 0.0,
+  "description": " (Current Period Total Sales - Previous Period Total Sales) / Previous Period Total Sales * 100",
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Sales Growth Rate",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-28 17:22:04.011955",
+  "name": "f7mokb56ko",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "base_doctype": null,
+  "current_value": 0.0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Average Order Value",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-28 17:24:35.587144",
+  "name": "f963hbdm2p",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "base_doctype": null,
+  "current_value": 0.0,
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Gross Profit Margin",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-28 17:24:57.254820",
+  "name": "f9csbd67mb",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "base_doctype": null,
+  "current_value": 0.0,
+  "description": "Measures the average number of days to collect payment after a sale, indicating cash flow efficiency.",
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Days Sales Outstanding (DSO)",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-28 17:27:17.845346",
+  "name": "f9i43lfjn7",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "base_doctype": null,
+  "current_value": 0.0,
+  "description": "Assesses liquidity by comparing current assets to current liabilities, revealing financial stability.",
+  "docstatus": 0,
+  "doctype": "Key Performance Indicator",
+  "kpi_name": "Current Ratio",
+  "kpi_status": "On Track",
+  "kpi_values": [],
+  "measurement_period": "Daily",
+  "modified": "2024-06-28 17:26:59.672310",
+  "name": "f9pfebm9m9",
+  "target_value": 0.0,
+  "unit_of_measure": null
+ },
+ {
+  "base_doctype": null,
   "current_value": 0.0,
   "description": "The total cost of acquiring a new customer, including marketing and sales expenses.",
   "docstatus": 0,
@@ -14,6 +90,7 @@
   "unit_of_measure": null
  },
  {
+  "base_doctype": null,
   "current_value": 0.0,
   "description": "The total revenue a business expects to earn from a customer over the entire period of their relationship.",
   "docstatus": 0,
@@ -28,6 +105,7 @@
   "unit_of_measure": null
  },
  {
+  "base_doctype": null,
   "current_value": 0.0,
   "description": "The percentage of customers who stop using a product or service within a given period.",
   "docstatus": 0,

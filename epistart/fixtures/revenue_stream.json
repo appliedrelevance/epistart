@@ -1,13 +1,5 @@
 [
  {
-  "description": "<div class=\"ql-editor read-mode\"><p>Direct sales of physical or digital products to customers.</p></div>",
-  "docstatus": 0,
-  "doctype": "Revenue Stream",
-  "modified": "2024-06-20 11:40:19.339583",
-  "name": "m1f1k8rvrv",
-  "revenue_stream_name": "Product Sales"
- },
- {
   "description": "<div class=\"ql-editor read-mode\"><p>Fees for granting permission to use intellectual property, software, or content.</p></div>",
   "docstatus": 0,
   "doctype": "Revenue Stream",
@@ -54,6 +46,14 @@
   "modified": "2024-06-20 11:43:29.437264",
   "name": "m3aetm6ma0",
   "revenue_stream_name": "Data Monetization"
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>Direct sales of physical or digital products to customers.</p></div>",
+  "docstatus": 0,
+  "doctype": "Revenue Stream",
+  "modified": "2024-06-20 11:40:19.339583",
+  "name": "m1f1k8rvrv",
+  "revenue_stream_name": "Product Sales"
  },
  {
   "description": "<div class=\"ql-editor read-mode\"><p>Recurring payments from users for access to a product or service on a monthly or annual basis.</p></div>",

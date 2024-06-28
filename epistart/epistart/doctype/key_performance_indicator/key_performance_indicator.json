@@ -1,114 +1,133 @@
 {
- "actions": [],
- "allow_rename": 1,
- "creation": "2024-06-12 20:42:47.669847",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "kpi_name",
-  "description",
-  "target_value",
-  "current_value",
-  "measurement_period",
-  "kpi_status",
-  "unit_of_measure",
-  "kpi_values"
- ],
- "fields": [
-  {
-   "fieldname": "kpi_name",
-   "fieldtype": "Data",
-   "label": "KPI Name"
-  },
-  {
-   "fieldname": "description",
-   "fieldtype": "Small Text",
-   "label": "Description"
-  },
-  {
-   "fieldname": "target_value",
-   "fieldtype": "Float",
-   "label": "Target Value"
-  },
-  {
-   "fieldname": "current_value",
-   "fieldtype": "Float",
-   "is_virtual": 1,
-   "label": "Current Value"
-  },
-  {
-   "fieldname": "measurement_period",
-   "fieldtype": "Select",
-   "label": "Measurement Period",
-   "options": "Daily\nWeekly\nMonthly\nQuarterly\nYearly"
-  },
-  {
-   "fieldname": "kpi_status",
-   "fieldtype": "Select",
-   "label": "KPI Status",
-   "options": "On Track\nOff Track\nAt Risk"
-  },
-  {
-   "fieldname": "kpi_values",
-   "fieldtype": "Table",
-   "label": "KPI Values",
-   "options": "KPI Value"
-  },
-  {
-   "fieldname": "unit_of_measure",
-   "fieldtype": "Link",
-   "label": "Unit of Measure",
-   "options": "Unit of Measure"
-  }
- ],
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-06-20 17:52:36.503610",
- "modified_by": "Administrator",
- "module": "EpiStart",
- "name": "Key Performance Indicator",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "EpiStart User",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "EpiStart Administrator",
-   "share": 1,
-   "write": 1
-  }
- ],
- "show_title_field_in_link": 1,
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": [],
- "title_field": "kpi_name"
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2024-06-12 20:42:47.669847",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "kpi_name",
+        "description",
+        "target_value",
+        "current_value",
+        "measurement_period",
+        "kpi_status",
+        "unit_of_measure",
+        "kpi_values",
+        "computations_section",
+        "base_doctype"
+    ],
+    "fields": [
+        {
+            "fieldname": "kpi_name",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "in_preview": 1,
+            "label": "KPI Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Small Text",
+            "in_list_view": 1,
+            "in_preview": 1,
+            "label": "Description"
+        },
+        {
+            "fieldname": "target_value",
+            "fieldtype": "Float",
+            "label": "Target Value"
+        },
+        {
+            "fieldname": "current_value",
+            "fieldtype": "Float",
+            "is_virtual": 1,
+            "label": "Current Value"
+        },
+        {
+            "fieldname": "measurement_period",
+            "fieldtype": "Select",
+            "label": "Measurement Period",
+            "options": "Daily\nWeekly\nMonthly\nQuarterly\nYearly"
+        },
+        {
+            "fieldname": "kpi_status",
+            "fieldtype": "Select",
+            "label": "KPI Status",
+            "options": "On Track\nOff Track\nAt Risk"
+        },
+        {
+            "fieldname": "kpi_values",
+            "fieldtype": "Table",
+            "label": "KPI Values",
+            "options": "KPI Value"
+        },
+        {
+            "fieldname": "unit_of_measure",
+            "fieldtype": "Link",
+            "label": "Unit of Measure",
+            "options": "UOM"
+        },
+        {
+            "fieldname": "computations_section",
+            "fieldtype": "Section Break",
+            "label": "Computations"
+        },
+        {
+            "description": "Doctype that drives the KPI computations. ",
+            "fieldname": "base_doctype",
+            "fieldtype": "Link",
+            "label": "Base Doctype",
+            "options": "DocType"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2024-06-28 17:34:46.224773",
+    "modified_by": "Administrator",
+    "module": "EpiStart",
+    "name": "Key Performance Indicator",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "EpiStart User",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "EpiStart Administrator",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "show_title_field_in_link": 1,
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": [],
+    "title_field": "kpi_name"
 }

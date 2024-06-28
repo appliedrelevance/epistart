@@ -33,6 +33,7 @@
   },
   {
    "columns": 6,
+   "fetch_from": "key_performance_indicator.description",
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "in_list_view": 1,
@@ -42,7 +43,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-20 15:16:03.512873",
+ "modified": "2024-06-28 17:23:40.862052",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Key Performance Indicator",

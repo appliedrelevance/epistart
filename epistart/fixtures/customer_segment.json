@@ -1,14 +1,5 @@
 [
  {
-  "customer_segment_name": "Small and Medium-sized Enterprises (SMEs)",
-  "demographics": [],
-  "description": "<div class=\"ql-editor read-mode\"><p>Businesses with 10-500 employees looking for affordable, scalable solutions to streamline their operations and improve efficiency.</p></div>",
-  "docstatus": 0,
-  "doctype": "Customer Segment",
-  "modified": "2024-06-20 14:56:02.686593",
-  "name": "ESLC-CSEG-0007"
- },
- {
   "customer_segment_name": "Large Enterprises",
   "demographics": [],
   "description": "<div class=\"ql-editor read-mode\"><p>Corporations with over 500 employees needing robust, customizable solutions that integrate with existing systems and support complex workflows.</p></div>",
@@ -16,15 +7,6 @@
   "doctype": "Customer Segment",
   "modified": "2024-06-20 14:56:35.688282",
   "name": "ESLC-CSEG-0008"
- },
- {
-  "customer_segment_name": "Technology Startups",
-  "demographics": [],
-  "description": "<div class=\"ql-editor read-mode\"><p>Early-stage tech companies needing agile, flexible software solutions to support rapid growth and innovation.</p></div>",
-  "docstatus": 0,
-  "doctype": "Customer Segment",
-  "modified": "2024-06-20 14:56:59.355447",
-  "name": "ESLC-CSEG-0009"
  },
  {
   "customer_segment_name": "Healthcare Providers",
@@ -54,15 +36,6 @@
   "name": "ESLC-CSEG-0012"
  },
  {
-  "customer_segment_name": "Manufacturing Companies",
-  "demographics": [],
-  "description": "<div class=\"ql-editor read-mode\"><p>Firms in the manufacturing sector needing software to manage supply chains, production processes, inventory, and quality control.</p></div>",
-  "docstatus": 0,
-  "doctype": "Customer Segment",
-  "modified": "2024-06-20 14:59:21.282594",
-  "name": "ESLC-CSEG-0013"
- },
- {
   "customer_segment_name": "Retail and E-commerce Businesses",
   "demographics": [],
   "description": "<div class=\"ql-editor read-mode\"><p>Online and brick-and-mortar retailers looking for software to manage sales, inventory, customer relationships, and marketing campaigns.</p></div>",
@@ -88,5 +61,32 @@
   "doctype": "Customer Segment",
   "modified": "2024-06-20 15:01:20.050199",
   "name": "ESLC-CSEG-0016"
+ },
+ {
+  "customer_segment_name": "Small and Medium-sized Enterprises (SMEs)",
+  "demographics": [],
+  "description": "<div class=\"ql-editor read-mode\"><p>Businesses with 10-500 employees looking for affordable, scalable solutions to streamline their operations and improve efficiency.</p></div>",
+  "docstatus": 0,
+  "doctype": "Customer Segment",
+  "modified": "2024-06-20 14:56:02.686593",
+  "name": "ESLC-CSEG-0007"
+ },
+ {
+  "customer_segment_name": "Technology Startups",
+  "demographics": [],
+  "description": "<div class=\"ql-editor read-mode\"><p>Early-stage tech companies needing agile, flexible software solutions to support rapid growth and innovation.</p></div>",
+  "docstatus": 0,
+  "doctype": "Customer Segment",
+  "modified": "2024-06-20 14:56:59.355447",
+  "name": "ESLC-CSEG-0009"
+ },
+ {
+  "customer_segment_name": "Manufacturing Companies",
+  "demographics": [],
+  "description": "<div class=\"ql-editor read-mode\"><p>Firms in the manufacturing sector needing software to manage supply chains, production processes, inventory, and quality control.</p></div>",
+  "docstatus": 0,
+  "doctype": "Customer Segment",
+  "modified": "2024-06-20 14:59:21.282594",
+  "name": "ESLC-CSEG-0013"
  }
 ]

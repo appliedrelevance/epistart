@@ -410,7 +410,7 @@
     "icon": null,
     "is_query_report": 0,
     "label": "Resources",
-    "link_count": 3,
+    "link_count": 1,
     "link_to": null,
     "link_type": "DocType",
     "onboard": 0,
@@ -419,40 +419,6 @@
     "parentfield": "links",
     "parenttype": "Workspace",
     "type": "Card Break"
-   },
-   {
-    "dependencies": null,
-    "description": null,
-    "hidden": 0,
-    "icon": null,
-    "is_query_report": 0,
-    "label": "Units of Measure",
-    "link_count": 0,
-    "link_to": "Unit of Measure",
-    "link_type": "DocType",
-    "onboard": 0,
-    "only_for": null,
-    "parent": "EpiStart",
-    "parentfield": "links",
-    "parenttype": "Workspace",
-    "type": "Link"
-   },
-   {
-    "dependencies": null,
-    "description": null,
-    "hidden": 0,
-    "icon": null,
-    "is_query_report": 0,
-    "label": "Unit of Measure Categories",
-    "link_count": 0,
-    "link_to": "Unit of Measure Category",
-    "link_type": "DocType",
-    "onboard": 0,
-    "only_for": null,
-    "parent": "EpiStart",
-    "parentfield": "links",
-    "parenttype": "Workspace",
-    "type": "Link"
    },
    {
     "dependencies": null,
@@ -472,7 +438,7 @@
     "type": "Link"
    }
   ],
-  "modified": "2024-06-28 12:53:19.836841",
+  "modified": "2024-06-28 16:28:50.274660",
   "module": "EpiStart",
   "name": "EpiStart",
   "number_cards": [],

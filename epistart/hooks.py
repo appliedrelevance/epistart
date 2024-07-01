@@ -21,7 +21,7 @@ fixtures = [
     {"doctype": "Unit of Measure Category"},
     {"doctype": "Customer Relationship Type"},
 ]
-required_apps = ["erpnext"]
+required_apps = ["erpnext", "epimind"]
 
 # Includes in <head>
 # ------------------

@@ -1,0 +1,21 @@
+{
+ "action": "Show Form Tour",
+ "action_label": "Learn about the Lean Canvas",
+ "creation": "2024-07-01 10:16:04.322437",
+ "description": "The EpiStart module contains several key doctypes that work together to support your business journey. Take a moment to familiarize yourself with the following:",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2024-07-01 10:22:16.148359",
+ "modified_by": "Administrator",
+ "name": "EpiStart Doctypes",
+ "owner": "Administrator",
+ "reference_document": "Lean Canvas",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "title": "Understand the EpiStart Doctypes",
+ "validate_action": 1
+}

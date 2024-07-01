@@ -1,0 +1,68 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "autoname": "format:SLIDE-{####}",
+    "creation": "2024-07-04 11:00:00.000000",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": [
+        "title",
+        "content",
+        "slide_type",
+        "column_break_3",
+        "slide_order",
+        "image"
+    ],
+    "fields": [
+        {
+            "fieldname": "title",
+            "fieldtype": "Data",
+            "in_list_view": 1,
+            "label": "Title",
+            "reqd": 1
+        },
+        {
+            "fieldname": "content",
+            "fieldtype": "Text Editor",
+            "label": "Content",
+            "reqd": 1
+        },
+        {
+            "fieldname": "slide_type",
+            "fieldtype": "Select",
+            "in_list_view": 1,
+            "label": "Slide Type",
+            "options": "Title\nProblem\nSolution\nMarket Size\nBusiness Model\nCompetition\nTeam\nFinancials\nAsk\nContact\nOther",
+            "reqd": 1
+        },
+        {
+            "fieldname": "column_break_3",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "slide_order",
+            "fieldtype": "Int",
+            "in_list_view": 1,
+            "label": "Slide Order",
+            "reqd": 1
+        },
+        {
+            "fieldname": "image",
+            "fieldtype": "Attach Image",
+            "label": "Image"
+        }
+    ],
+    "index_web_pages_for_search": 1,
+    "istable": 1,
+    "links": [],
+    "modified": "2024-07-04 11:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "EpiStart",
+    "name": "Slide",
+    "naming_rule": "Expression",
+    "owner": "Administrator",
+    "permissions": [],
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

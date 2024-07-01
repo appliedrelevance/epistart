@@ -1,0 +1,29 @@
+{
+ "allow_roles": [
+  {
+   "role": "EpiStart Administrator"
+  },
+  {
+   "role": "EpiStart User"
+  }
+ ],
+ "creation": "2024-07-01 10:16:08.183217",
+ "docstatus": 0,
+ "doctype": "Module Onboarding",
+ "documentation_url": "https://docs.epinomy.com/epistart",
+ "idx": 0,
+ "is_complete": 0,
+ "modified": "2024-07-01 10:24:19.036190",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "EpiStart",
+ "owner": "Administrator",
+ "steps": [
+  {
+   "step": "EpiStart Doctypes"
+  }
+ ],
+ "subtitle": "Get started with the EpiStart module",
+ "success_message": "Congratulations! You have completed the EpiStart onboarding.",
+ "title": "EpiStart Onboarding"
+}

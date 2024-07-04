@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:role_name",
  "creation": "2024-04-16 22:31:56.803207",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -13,7 +14,9 @@
    "fieldname": "role_name",
    "fieldtype": "Data",
    "in_list_view": 1,
-   "label": "Role Name"
+   "label": "Role Name",
+   "reqd": 1,
+   "unique": 1
   },
   {
    "fieldname": "description",
@@ -23,10 +26,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-04-22 17:43:13.981686",
+ "modified": "2024-07-04 11:57:54.982256",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Persona Role",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

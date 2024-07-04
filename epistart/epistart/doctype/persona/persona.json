@@ -10,58 +10,22 @@
  "engine": "InnoDB",
  "field_order": [
   "persona_name",
-  "column_break_afzq",
-  "role",
   "avatar",
-  "section_break_ggnd",
+  "column_break_afzq",
+  "persona_role",
+  "demographics_section",
   "age_range",
-  "gender",
   "location",
+  "column_break_vwez",
+  "gender",
+  "preferences_section",
+  "preferred_channels",
   "business_needs_tab",
   "goals",
   "challenges",
-  "motivations",
-  "preferred_channels"
+  "motivations"
  ],
  "fields": [
-  {
-   "description": "The primary role or job title the persona occupies in the context of using your product or service.",
-   "fieldname": "role",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "in_standard_filter": 1,
-   "label": "Role",
-   "options": "Persona Role"
-  },
-  {
-   "description": "Primary objectives or what the persona aims to achieve by using your product or service.",
-   "fieldname": "goals",
-   "fieldtype": "Text Editor",
-   "label": "Goals"
-  },
-  {
-   "description": "The main challenges, pain points, or frustrations the persona faces, which your product or service seeks to address.",
-   "fieldname": "challenges",
-   "fieldtype": "Text Editor",
-   "label": "Challenges"
-  },
-  {
-   "description": "What drives the persona to look for solutions? This includes both intrinsic and extrinsic motivations.",
-   "fieldname": "motivations",
-   "fieldtype": "Text Editor",
-   "label": "Motivations"
-  },
-  {
-   "fieldname": "preferred_channels",
-   "fieldtype": "Table",
-   "label": "Preferred Channels",
-   "options": "Local Channel"
-  },
-  {
-   "fieldname": "avatar",
-   "fieldtype": "Attach Image",
-   "label": "Avatar"
-  },
   {
    "fieldname": "column_break_afzq",
    "fieldtype": "Column Break"
@@ -75,16 +39,58 @@
    "unique": 1
   },
   {
+   "fieldname": "business_needs_tab",
+   "fieldtype": "Tab Break",
+   "label": "Business Needs"
+  },
+  {
+   "description": "The primary role or job title the persona occupies in the context of using your product or service.",
+   "fieldname": "persona_role",
+   "fieldtype": "Link",
+   "label": "Persona Role",
+   "options": "Persona Role"
+  },
+  {
+   "fieldname": "avatar",
+   "fieldtype": "Attach Image",
+   "label": "Avatar"
+  },
+  {
+   "fieldname": "demographics_section",
+   "fieldtype": "Section Break",
+   "label": "Demographics"
+  },
+  {
    "fieldname": "age_range",
    "fieldtype": "Select",
    "label": "Age Range",
    "options": "Under 18\n18-24\n25-34\n35-44\n45-54\n55-64\n65 and over"
   },
   {
-   "fieldname": "gender",
-   "fieldtype": "Link",
-   "label": "Gender",
-   "options": "Gender"
+   "fieldname": "preferences_section",
+   "fieldtype": "Section Break",
+   "label": "Preferences"
+  },
+  {
+   "fieldname": "preferred_channels",
+   "fieldtype": "Table",
+   "label": "Preferred Channels",
+   "options": "Local Channel"
+  },
+  {
+   "fieldname": "goals",
+   "fieldtype": "Text Editor",
+   "label": "Goals"
+  },
+  {
+   "fieldname": "challenges",
+   "fieldtype": "Text Editor",
+   "label": "Challenges"
+  },
+  {
+   "fieldname": "motivations",
+   "fieldtype": "Text Editor",
+   "label": "Motivations"
   },
   {
    "fieldname": "location",
@@ -92,19 +98,19 @@
    "label": "Location"
   },
   {
-   "fieldname": "section_break_ggnd",
-   "fieldtype": "Section Break"
+   "fieldname": "column_break_vwez",
+   "fieldtype": "Column Break"
   },
   {
-   "fieldname": "business_needs_tab",
-   "fieldtype": "Tab Break",
-   "label": "Business Needs"
+   "fieldname": "gender",
+   "fieldtype": "Link",
+   "label": "Gender",
+   "options": "Gender"
   }
  ],
- "image_field": "avatar",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-20 14:45:23.308584",
+ "modified": "2024-07-04 12:48:42.929876",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Persona",
@@ -152,6 +158,5 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "role",
- "track_changes": 1
+ "title_field": "persona_name"
 }

@@ -10,16 +10,12 @@
   "title",
   "description",
   "column_break_erso",
+  "persona",
   "as_a",
   "i_want",
   "so_that",
   "section_break_pvcq",
   "column_break_lowz",
-  "priority",
-  "story_status",
-  "epic",
-  "story_points",
-  "column_break_ueqs",
   "acceptance_criteria",
   "section_break_appq",
   "amended_from"
@@ -62,36 +58,13 @@
    "label": "Acceptance Criteria"
   },
   {
-   "description": "Indicates the priority level of the user story to help with backlog grooming and sprint planning.",
-   "fieldname": "priority",
-   "fieldtype": "Select",
-   "label": "Priority",
-   "options": "Must Have\nShould Have\nCould Have\nWon\u2019t Have"
-  },
-  {
-   "fieldname": "story_status",
-   "fieldtype": "Select",
-   "label": "Story Status",
-   "options": "New\nIn Progress\nCompleted\nArchived"
-  },
-  {
-   "fieldname": "epic",
-   "fieldtype": "Link",
-   "label": "Epic",
-   "options": "Epic"
-  },
-  {
-   "fieldname": "story_points",
-   "fieldtype": "Float",
-   "label": "Story Points"
-  },
-  {
    "description": "Specifies the role or persona of the user for whom the story is written.",
+   "fetch_from": "persona.persona_role",
    "fieldname": "as_a",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "As A",
-   "options": "Persona",
+   "options": "Persona Role",
    "reqd": 1
   },
   {
@@ -121,15 +94,17 @@
    "fieldtype": "Section Break"
   },
   {
-   "fieldname": "column_break_ueqs",
-   "fieldtype": "Column Break"
+   "fieldname": "persona",
+   "fieldtype": "Link",
+   "label": "Persona",
+   "options": "Persona"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-04-06 21:27:08.632510",
+ "modified": "2024-07-04 13:10:45.302384",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "User Story",

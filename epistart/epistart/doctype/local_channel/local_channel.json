@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "creation": "2024-06-13 00:31:47.477157",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "channel",
@@ -16,7 +17,8 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Channel",
-   "options": "Channel"
+   "options": "Channel",
+   "reqd": 1
   },
   {
    "columns": 2,
@@ -29,6 +31,7 @@
   {
    "columns": 6,
    "fetch_from": "channel.description",
+   "fetch_if_empty": 1,
    "fieldname": "notes",
    "fieldtype": "Text Editor",
    "in_list_view": 1,
@@ -38,7 +41,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-20 15:45:29.147242",
+ "modified": "2024-07-04 12:56:59.346823",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Channel",

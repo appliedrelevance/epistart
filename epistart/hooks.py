@@ -17,8 +17,6 @@ fixtures = [
     {"doctype": "Key Performance Indicator"},
     {"doctype": "Customer Segment"},
     {"doctype": "Channel"},
-    {"doctype": "Unit of Measure"},
-    {"doctype": "Unit of Measure Category"},
     {"doctype": "Customer Relationship Type"},
 ]
 required_apps = ["erpnext", "epimind"]

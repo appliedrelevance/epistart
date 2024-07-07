@@ -1,5 +1,23 @@
 [
  {
+  "channel_name": "MiCore Suite",
+  "channel_type": "Offline",
+  "description": "<div class=\"ql-editor read-mode\"><p>Primary tool set for content analysis and migration</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-07-04 13:06:01.222820",
+  "name": "ESLC-CHNL-0041"
+ },
+ {
+  "channel_name": "Professional Forums and Webinars",
+  "channel_type": "Online",
+  "description": "<div class=\"ql-editor read-mode\"><p>For staying updated on industry trends and networking</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-07-04 13:06:48.027186",
+  "name": "ESLC-CHNL-0046"
+ },
+ {
   "channel_name": "Online Advertising",
   "channel_type": "Online",
   "description": "<div class=\"ql-editor read-mode\"><p>Using platforms like Google Ads, Facebook Ads, LinkedIn Ads, and other online advertising networks to target specific customer segments with tailored ads.</p></div>",
@@ -88,5 +106,41 @@
   "doctype": "Channel",
   "modified": "2024-06-20 15:08:16.002965",
   "name": "ESLC-CHNL-0022"
+ },
+ {
+  "channel_name": "Client Web Meetings",
+  "channel_type": "Online",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-07-04 12:52:40.432424",
+  "name": "ESLC-CHNL-0042"
+ },
+ {
+  "channel_name": "Client In-Person Meetings",
+  "channel_type": "Direct",
+  "description": "<div class=\"ql-editor read-mode\"><p>For project planning, status updates, and stakeholder management</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-07-04 13:05:45.590585",
+  "name": "ESLC-CHNL-0043"
+ },
+ {
+  "channel_name": "Internal Knowledge Base",
+  "channel_type": "Offline",
+  "description": "<div class=\"ql-editor read-mode\"><p>For accessing best practices and case studies</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-07-04 13:05:28.917890",
+  "name": "ESLC-CHNL-0044"
+ },
+ {
+  "channel_name": "Microsoft Teams",
+  "channel_type": "Online",
+  "description": "<div class=\"ql-editor read-mode\"><p>For team communication and quick problem-solving</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-07-04 12:57:32.455218",
+  "name": "ESLC-CHNL-0045"
  }
 ]

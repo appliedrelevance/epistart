@@ -16,9 +16,7 @@
   "so_that",
   "section_break_pvcq",
   "column_break_lowz",
-  "acceptance_criteria",
-  "section_break_appq",
-  "amended_from"
+  "acceptance_criteria"
  ],
  "fields": [
   {
@@ -68,16 +66,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "User Story",
-   "print_hide": 1,
-   "read_only": 1,
-   "search_index": 1
-  },
-  {
    "fieldname": "column_break_erso",
    "fieldtype": "Column Break"
   },
@@ -90,10 +78,6 @@
    "fieldtype": "Column Break"
   },
   {
-   "fieldname": "section_break_appq",
-   "fieldtype": "Section Break"
-  },
-  {
    "fieldname": "persona",
    "fieldtype": "Link",
    "label": "Persona",
@@ -102,9 +86,8 @@
  ],
  "index_web_pages_for_search": 1,
  "is_calendar_and_gantt": 1,
- "is_submittable": 1,
  "links": [],
- "modified": "2024-07-04 13:10:45.302384",
+ "modified": "2024-07-08 16:11:05.052015",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "User Story",

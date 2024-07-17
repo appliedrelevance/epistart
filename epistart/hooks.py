@@ -19,7 +19,7 @@ fixtures = [
     {"doctype": "Channel"},
     {"doctype": "Customer Relationship Type"},
 ]
-required_apps = ["erpnext", "epimind"]
+required_apps = ["erpnext"]
 
 # Includes in <head>
 # ------------------

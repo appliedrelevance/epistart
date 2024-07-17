@@ -8,7 +8,13 @@
  "field_order": [
   "user_story",
   "column_break_ppkc",
-  "priority"
+  "priority",
+  "progress_section",
+  "story_points",
+  "story_status",
+  "column_break_vyuu",
+  "project",
+  "task"
  ],
  "fields": [
   {
@@ -31,12 +37,44 @@
    "in_standard_filter": 1,
    "label": "Priority",
    "options": "Low\nMedium\nHigh"
+  },
+  {
+   "fieldname": "progress_section",
+   "fieldtype": "Section Break",
+   "label": "Progress"
+  },
+  {
+   "fieldname": "story_points",
+   "fieldtype": "Int",
+   "label": "Story Points"
+  },
+  {
+   "fieldname": "story_status",
+   "fieldtype": "Select",
+   "label": "Story Status",
+   "options": "New\nIn Progress\nCompleted\nArchived"
+  },
+  {
+   "fieldname": "column_break_vyuu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "task",
+   "fieldtype": "Link",
+   "label": "Task",
+   "options": "Task"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-21 16:44:45.419825",
+ "modified": "2024-07-04 07:04:30.878141",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local User Story",

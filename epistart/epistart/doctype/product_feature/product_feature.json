@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "creation": "2024-04-21 17:36:16.692367",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "feature_name",
@@ -86,7 +87,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-04-21 23:53:44.788484",
+ "modified": "2024-07-03 19:52:05.196465",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Feature",

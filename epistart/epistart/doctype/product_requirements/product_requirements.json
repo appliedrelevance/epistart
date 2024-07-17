@@ -13,6 +13,7 @@
   "canvas_link",
   "section_break_ifsv",
   "abstract",
+  "product_narrative_section",
   "narrative",
   "user_stories_section",
   "user_stories",
@@ -49,7 +50,8 @@
   },
   {
    "fieldname": "user_stories_section",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "User Stories"
   },
   {
    "fieldname": "user_stories",
@@ -157,7 +159,8 @@
   },
   {
    "fieldname": "section_break_ifsv",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "label": "Abstract"
   },
   {
    "fieldname": "uiux_mockup",
@@ -191,11 +194,16 @@
    "fieldtype": "Dynamic Link",
    "label": "Canvas Link",
    "options": "canvas_type"
+  },
+  {
+   "fieldname": "product_narrative_section",
+   "fieldtype": "Section Break",
+   "label": "Product Narrative"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-01 06:47:46.463107",
+ "modified": "2024-07-08 16:17:57.963543",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements",
@@ -239,6 +247,7 @@
    "write": 1
   }
  ],
+ "search_fields": "product_name, abstract",
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

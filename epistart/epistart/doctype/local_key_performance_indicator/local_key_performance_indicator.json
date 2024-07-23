@@ -3,6 +3,7 @@
  "allow_rename": 1,
  "creation": "2024-06-12 20:58:33.138189",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "key_performance_indicator",
@@ -43,7 +44,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-28 17:23:40.862052",
+ "modified": "2024-07-17 18:55:46.573270",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Local Key Performance Indicator",

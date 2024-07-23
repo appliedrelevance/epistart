@@ -4,6 +4,7 @@
  "autoname": "format:SLIDE-{####}",
  "creation": "2024-07-04 11:00:00",
  "doctype": "DocType",
+ "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "title",
@@ -60,7 +61,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-06-29 18:42:11.330606",
+ "modified": "2024-07-17 18:56:42.253396",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Slide",

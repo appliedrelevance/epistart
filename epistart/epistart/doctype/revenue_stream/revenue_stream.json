@@ -6,7 +6,12 @@
  "engine": "InnoDB",
  "field_order": [
   "revenue_stream_name",
-  "description"
+  "description",
+  "section_break_mjcn",
+  "company",
+  "column_break_qpyz",
+  "accounting_account",
+  "number_card_link"
  ],
  "fields": [
   {
@@ -18,11 +23,41 @@
    "fieldname": "description",
    "fieldtype": "Text Editor",
    "label": "Description"
+  },
+  {
+   "fieldname": "section_break_mjcn",
+   "fieldtype": "Section Break"
+  },
+  {
+   "description": "The ERPNext company associated with this revenue stream.",
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "column_break_qpyz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "The income account associated with revenue from this stream.",
+   "fieldname": "accounting_account",
+   "fieldtype": "Link",
+   "label": "Accounting Account",
+   "options": "Account"
+  },
+  {
+   "description": "A Number Card is designed to retrieve a single number aggregate from a doctype.  ",
+   "fieldname": "number_card_link",
+   "fieldtype": "Link",
+   "label": "Number Card Link",
+   "options": "Number Card",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-20 18:01:32.575860",
+ "modified": "2024-07-28 11:09:38.889409",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Revenue Stream",

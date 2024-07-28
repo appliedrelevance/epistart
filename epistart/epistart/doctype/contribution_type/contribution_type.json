@@ -1,0 +1,79 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:contribution_name",
+ "creation": "2024-03-17 13:35:46.874362",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "contribution_name",
+  "column_break_nizr",
+  "point_conversion_rate",
+  "units",
+  "section_break_krxw",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "contribution_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Contribution Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_nizr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "point_conversion_rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Point Conversion Rate"
+  },
+  {
+   "fieldname": "units",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Units",
+   "options": "Hours\nCash\nResources"
+  },
+  {
+   "fieldname": "section_break_krxw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 16:10:47.405272",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Contribution Type",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,135 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:full_name",
+ "creation": "2024-03-17 07:51:42.833944",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "position",
+  "column_break_ehia",
+  "start_date",
+  "user",
+  "gross_hourly_resource_rate_section",
+  "fhrr",
+  "column_break_zoeu",
+  "multiplier"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "position",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Position",
+   "options": "Founder Position",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ehia",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "gross_hourly_resource_rate_section",
+   "fieldtype": "Section Break",
+   "label": "Hourly Resource Rate"
+  },
+  {
+   "description": "Founder Hourly Resource Rate",
+   "fetch_from": "position.hourly_rate",
+   "fieldname": "fhrr",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "FHRR"
+  },
+  {
+   "fieldname": "column_break_zoeu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Float field to store the factor that adjusts the FHRR based on the role.",
+   "fieldname": "multiplier",
+   "fieldtype": "Float",
+   "label": "Multiplier"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 16:11:48.963759",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Founder",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Founder Fund Contributor",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "if_owner": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Founder Fund Contributor",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Founder Fund Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name"
+}

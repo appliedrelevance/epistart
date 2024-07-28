@@ -1,0 +1,150 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-27 19:58:08.078559",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "plan_name",
+  "product",
+  "project",
+  "column_break_edsl",
+  "start_date",
+  "end_date",
+  "status",
+  "executive_summary_section",
+  "executive_summary",
+  "market_analysis_section",
+  "market_overview",
+  "customer_segments",
+  "swot_analysis_tab",
+  "swot_analysis_section",
+  "strengths",
+  "weaknesses",
+  "opportunities",
+  "threats"
+ ],
+ "fields": [
+  {
+   "fieldname": "plan_name",
+   "fieldtype": "Data",
+   "label": "Plan Name"
+  },
+  {
+   "fieldname": "product",
+   "fieldtype": "Link",
+   "label": "Product",
+   "options": "Item"
+  },
+  {
+   "fieldname": "executive_summary",
+   "fieldtype": "Text Editor",
+   "label": "Executive Summary"
+  },
+  {
+   "fieldname": "column_break_edsl",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nActive\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "executive_summary_section",
+   "fieldtype": "Section Break",
+   "label": "Executive Summary"
+  },
+  {
+   "fieldname": "market_analysis_section",
+   "fieldtype": "Section Break",
+   "label": "Market Analysis"
+  },
+  {
+   "fieldname": "market_overview",
+   "fieldtype": "Text Editor",
+   "label": "Market Overview"
+  },
+  {
+   "fieldname": "customer_segments",
+   "fieldtype": "Table",
+   "label": "Customer Segments",
+   "options": "Local Customer Segment"
+  },
+  {
+   "fieldname": "strengths",
+   "fieldtype": "Table",
+   "label": "Strengths",
+   "options": "SWOT Item"
+  },
+  {
+   "fieldname": "weaknesses",
+   "fieldtype": "Table",
+   "label": "Weaknesses",
+   "options": "SWOT Item"
+  },
+  {
+   "fieldname": "swot_analysis_tab",
+   "fieldtype": "Tab Break",
+   "label": "SWOT Analysis"
+  },
+  {
+   "fieldname": "swot_analysis_section",
+   "fieldtype": "Section Break",
+   "label": "SWOT Analysis"
+  },
+  {
+   "fieldname": "opportunities",
+   "fieldtype": "Table",
+   "label": "Opportunities",
+   "options": "SWOT Item"
+  },
+  {
+   "fieldname": "threats",
+   "fieldtype": "Table",
+   "label": "Threats",
+   "options": "SWOT Item"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 10:07:16.408240",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Product Marketing Plan",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,6 +1,5 @@
 [
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": " (Current Period Total Sales - Previous Period Total Sales) / Previous Period Total Sales * 100",
   "docstatus": 0,
@@ -11,11 +10,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-28 17:22:04.011955",
   "name": "f7mokb56ko",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": null,
   "docstatus": 0,
@@ -26,11 +25,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-28 17:24:35.587144",
   "name": "f963hbdm2p",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": null,
   "docstatus": 0,
@@ -41,11 +40,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-28 17:24:57.254820",
   "name": "f9csbd67mb",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "Measures the average number of days to collect payment after a sale, indicating cash flow efficiency.",
   "docstatus": 0,
@@ -56,11 +55,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-28 17:27:17.845346",
   "name": "f9i43lfjn7",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "Assesses liquidity by comparing current assets to current liabilities, revealing financial stability.",
   "docstatus": 0,
@@ -71,11 +70,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-28 17:26:59.672310",
   "name": "f9pfebm9m9",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "The total cost of acquiring a new customer, including marketing and sales expenses.",
   "docstatus": 0,
@@ -86,11 +85,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-20 11:51:24.393885",
   "name": "m7us7lr959",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "The total revenue a business expects to earn from a customer over the entire period of their relationship.",
   "docstatus": 0,
@@ -101,11 +100,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-20 11:51:59.570944",
   "name": "m89rbpkafa",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "The percentage of customers who stop using a product or service within a given period.",
   "docstatus": 0,
@@ -116,11 +115,11 @@
   "measurement_period": "Daily",
   "modified": "2024-06-20 11:52:22.053779",
   "name": "m8gsdj5te4",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": null
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "Measures the accuracy of Copilot's responses to user queries",
   "docstatus": 0,
@@ -131,11 +130,11 @@
   "measurement_period": "Daily",
   "modified": "2024-07-03 21:14:15.776146",
   "name": "n79bab8l6v",
+  "number_card": null,
   "target_value": 95.0,
   "unit_of_measure": "Percent"
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "Tracks the percentage of tasks successfully completed by Copilot without human intervention",
   "docstatus": 0,
@@ -146,11 +145,11 @@
   "measurement_period": "Daily",
   "modified": "2024-07-03 21:09:53.704976",
   "name": "n7uh4os2s3",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": "Percent"
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "Measures the average time taken by Copilot to respond to user queries",
   "docstatus": 0,
@@ -161,11 +160,11 @@
   "measurement_period": "Daily",
   "modified": "2024-07-03 21:12:18.988875",
   "name": "n9bt30jd6g",
+  "number_card": null,
   "target_value": 0.0,
   "unit_of_measure": "Second"
  },
  {
-  "base_doctype": null,
   "current_value": 0.0,
   "description": "Tracks the percentage of MiCore users actively using Copilot features",
   "docstatus": 0,
@@ -176,6 +175,7 @@
   "measurement_period": "Daily",
   "modified": "2024-07-03 21:13:47.525246",
   "name": "na7jofku5q",
+  "number_card": null,
   "target_value": 70.0,
   "unit_of_measure": "Percent"
  }

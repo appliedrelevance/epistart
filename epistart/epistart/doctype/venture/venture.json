@@ -1,0 +1,205 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{venture_name}",
+ "creation": "2024-07-28 10:29:00.658760",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "nameplate_tab",
+  "basic_info_section",
+  "venture_name",
+  "tagline",
+  "founding_date",
+  "column_break_zine",
+  "logo",
+  "company",
+  "stage",
+  "section_break_pmyr",
+  "mission",
+  "vision",
+  "strategy_tab",
+  "section_break_yhqi",
+  "canvas_type",
+  "column_break_hzdd",
+  "canvas_link",
+  "product_documents_section",
+  "product_requirements",
+  "column_break_tbao",
+  "product_marketing",
+  "tactics_tab",
+  "operations_tab",
+  "financial_tab",
+  "funding_stage",
+  "team_tab"
+ ],
+ "fields": [
+  {
+   "allow_in_quick_entry": 1,
+   "description": "The overall name of the venture, whether it is a startup or a new product within an existing enterprise. ",
+   "fieldname": "venture_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Venture Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "mission",
+   "fieldtype": "Text Editor",
+   "label": "Mission"
+  },
+  {
+   "fieldname": "canvas_type",
+   "fieldtype": "Select",
+   "label": "Canvas Type",
+   "options": "Lean Canvas\nBusiness Model Canvas"
+  },
+  {
+   "fieldname": "canvas_link",
+   "fieldtype": "Dynamic Link",
+   "label": "Canvas Link",
+   "options": "canvas_type"
+  },
+  {
+   "fieldname": "basic_info_section",
+   "fieldtype": "Section Break",
+   "label": "Basic Info"
+  },
+  {
+   "fieldname": "tagline",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Tagline"
+  },
+  {
+   "fieldname": "founding_date",
+   "fieldtype": "Date",
+   "label": "Founding Date"
+  },
+  {
+   "fieldname": "column_break_zine",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "fieldname": "stage",
+   "fieldtype": "Select",
+   "label": "Stage",
+   "options": "Idea\nConcept\nProduct Development\nBeta\nLaunch\nGrowth\nScale"
+  },
+  {
+   "fieldname": "section_break_pmyr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_yhqi",
+   "fieldtype": "Section Break",
+   "label": "Business Models"
+  },
+  {
+   "fieldname": "column_break_hzdd",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product_documents_section",
+   "fieldtype": "Section Break",
+   "label": "Product Documents"
+  },
+  {
+   "fieldname": "product_requirements",
+   "fieldtype": "Link",
+   "label": "Product Requirements",
+   "options": "Product Requirements"
+  },
+  {
+   "fieldname": "column_break_tbao",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "product_marketing",
+   "fieldtype": "Link",
+   "label": "Product Marketing",
+   "options": "Product Marketing Plan"
+  },
+  {
+   "fieldname": "nameplate_tab",
+   "fieldtype": "Tab Break",
+   "label": "Nameplate"
+  },
+  {
+   "fieldname": "vision",
+   "fieldtype": "Text Editor",
+   "label": "Vision"
+  },
+  {
+   "fieldname": "financial_tab",
+   "fieldtype": "Tab Break",
+   "label": "Financial"
+  },
+  {
+   "fieldname": "funding_stage",
+   "fieldtype": "Select",
+   "label": "Funding Stage",
+   "options": "Pre-seed\nSeed\nSeries A\nSeries B\nSeries C\nIPO"
+  },
+  {
+   "fieldname": "strategy_tab",
+   "fieldtype": "Tab Break",
+   "label": "Strategy"
+  },
+  {
+   "fieldname": "tactics_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tactics"
+  },
+  {
+   "fieldname": "operations_tab",
+   "fieldtype": "Tab Break",
+   "label": "Operations"
+  },
+  {
+   "fieldname": "team_tab",
+   "fieldtype": "Tab Break",
+   "label": "Team"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 11:34:50.768502",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Venture",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "venture_name"
+}

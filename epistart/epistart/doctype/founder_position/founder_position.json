@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:position_name",
+ "creation": "2024-03-17 07:57:13.184962",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "position_name",
+  "source",
+  "column_break_zpac",
+  "salary_basis",
+  "market_salary",
+  "hourly_rate",
+  "section_break_nhrb",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "position_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Position Name",
+   "unique": 1
+  },
+  {
+   "description": "URL Source from which compensation data was retrieved",
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "label": "Source"
+  },
+  {
+   "fieldname": "column_break_zpac",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "All work is tracked by hours, but for convenience, you can have the hourly rate computed from market salary.",
+   "fieldname": "salary_basis",
+   "fieldtype": "Select",
+   "label": "Salary Basis",
+   "options": "Hourly\nAnnual"
+  },
+  {
+   "depends_on": "eval:doc.salary_basis==\"Annual\";",
+   "description": "Good faith annual market salary plus benefits for a similarly experienced person in this position.",
+   "fieldname": "market_salary",
+   "fieldtype": "Currency",
+   "label": "Market Salary",
+   "precision": "0"
+  },
+  {
+   "description": "Good faith hourly rate, either computed from Market Salary or provided directly.",
+   "fieldname": "hourly_rate",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Hourly Rate",
+   "precision": "2",
+   "read_only_depends_on": "eval:doc.salary_basis==\"Annual\";"
+  },
+  {
+   "fieldname": "section_break_nhrb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 16:14:58.517577",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Founder Position",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

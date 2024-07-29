@@ -6,28 +6,37 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "venture",
   "fund_name",
   "company"
  ],
  "fields": [
   {
+   "fetch_from": "venture.venture_name",
    "fieldname": "fund_name",
    "fieldtype": "Data",
    "in_list_view": 1,
    "label": "Fund Name",
+   "reqd": 1,
    "unique": 1
   },
   {
    "fieldname": "company",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Company",
    "options": "Company"
+  },
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Venture",
+   "options": "Venture"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-28 16:12:49.405459",
+ "modified": "2024-07-29 10:34:57.027276",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Founder Fund",

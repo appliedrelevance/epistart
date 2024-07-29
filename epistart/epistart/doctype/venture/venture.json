@@ -4,6 +4,7 @@
  "autoname": "format:{venture_name}",
  "creation": "2024-07-28 10:29:00.658760",
  "doctype": "DocType",
+ "document_type": "Document",
  "engine": "InnoDB",
  "field_order": [
   "nameplate_tab",
@@ -283,15 +284,42 @@
  "index_web_pages_for_search": 1,
  "links": [
   {
+   "group": "Financial",
+   "link_doctype": "Founder Fund",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Financial",
    "link_doctype": "Term Sheet",
    "link_fieldname": "venture"
   },
   {
+   "group": "Financial",
    "link_doctype": "Funding Round",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Product Requirements",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Lean Canvas",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Business Model Canvas",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Competitor Analysis",
    "link_fieldname": "venture"
   }
  ],
- "modified": "2024-07-28 21:01:57.684772",
+ "modified": "2024-07-29 11:25:37.887667",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Venture",
@@ -309,8 +337,32 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart User",
+   "share": 1,
+   "write": 1
   }
  ],
+ "show_preview_popup": 1,
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

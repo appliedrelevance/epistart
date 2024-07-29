@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "venture",
   "title",
   "date",
   "column_break_kart",
@@ -32,6 +33,8 @@
  ],
  "fields": [
   {
+   "fetch_from": "venture.venture_name",
+   "fetch_if_empty": 1,
    "fieldname": "title",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -158,6 +161,12 @@
   {
    "fieldname": "column_break_kart",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "label": "Venture",
+   "options": "Venture"
   }
  ],
  "index_web_pages_for_search": 1,
@@ -167,7 +176,7 @@
    "link_fieldname": "canvas_link"
   }
  ],
- "modified": "2024-07-01 06:49:00.932387",
+ "modified": "2024-07-29 10:26:06.185049",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Business Model Canvas",

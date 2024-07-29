@@ -12,6 +12,7 @@
  "field_order": [
   "details_tab",
   "heading_section",
+  "venture",
   "startup_name",
   "column_break_rqwe",
   "published",
@@ -99,6 +100,7 @@
    "fieldtype": "Section Break"
   },
   {
+   "fetch_from": "venture.venture_name",
    "fieldname": "startup_name",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -178,6 +180,13 @@
    "fieldtype": "Table",
    "label": "Cost Structures",
    "options": "Local Cost Structure"
+  },
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Venture",
+   "options": "Venture"
   }
  ],
  "has_web_view": 1,
@@ -191,7 +200,7 @@
   }
  ],
  "make_attachments_public": 1,
- "modified": "2024-07-17 20:00:28.473261",
+ "modified": "2024-07-29 10:10:59.541532",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Lean Canvas",

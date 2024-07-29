@@ -5,6 +5,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "venture",
   "competitor_name",
   "description",
   "homepage",
@@ -139,11 +140,17 @@
    "fieldtype": "Table",
    "label": "Products and Services",
    "options": "Core Offering"
+  },
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "label": "Venture",
+   "options": "Venture"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-27 11:58:52.833917",
+ "modified": "2024-07-29 10:22:49.094225",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Competitor Analysis",

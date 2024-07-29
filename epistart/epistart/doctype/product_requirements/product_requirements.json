@@ -6,11 +6,9 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "venture",
+  "column_break_yapi",
   "product_name",
-  "column_break_qtjk",
-  "canvas_type",
-  "column_break_layu",
-  "canvas_link",
   "section_break_ifsv",
   "abstract",
   "product_narrative_section",
@@ -39,6 +37,8 @@
  ],
  "fields": [
   {
+   "fetch_from": "venture.venture_name",
+   "fetch_if_empty": 1,
    "fieldname": "product_name",
    "fieldtype": "Data",
    "label": "Product Name"
@@ -154,10 +154,6 @@
    "options": "Local Key Performance Indicator"
   },
   {
-   "fieldname": "column_break_qtjk",
-   "fieldtype": "Column Break"
-  },
-  {
    "fieldname": "section_break_ifsv",
    "fieldtype": "Section Break",
    "label": "Abstract"
@@ -179,31 +175,24 @@
    "options": "Local Activity"
   },
   {
-   "default": "Lean Canvas",
-   "fieldname": "canvas_type",
-   "fieldtype": "Select",
-   "label": "Canvas Type",
-   "options": "Lean Canvas\nBusiness Model Canvas"
-  },
-  {
-   "fieldname": "column_break_layu",
-   "fieldtype": "Column Break"
-  },
-  {
-   "fieldname": "canvas_link",
-   "fieldtype": "Dynamic Link",
-   "label": "Canvas Link",
-   "options": "canvas_type"
-  },
-  {
    "fieldname": "product_narrative_section",
    "fieldtype": "Section Break",
    "label": "Product Narrative"
+  },
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "label": "Venture",
+   "options": "Venture"
+  },
+  {
+   "fieldname": "column_break_yapi",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-08 16:17:57.963543",
+ "modified": "2024-07-29 09:55:27.905783",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements",

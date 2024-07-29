@@ -15,6 +15,10 @@
   "logo",
   "company",
   "stage",
+  "industry",
+  "section_break_sevm",
+  "website",
+  "social_media_links",
   "section_break_pmyr",
   "mission",
   "vision",
@@ -29,9 +33,21 @@
   "product_marketing",
   "tactics_tab",
   "operations_tab",
+  "project",
+  "marketing_campaign",
   "financial_tab",
   "funding_stage",
-  "team_tab"
+  "founder_fund",
+  "total_funding",
+  "current_valuation",
+  "column_break_qner",
+  "revenue_last_year",
+  "burn_rate",
+  "team_tab",
+  "team_section",
+  "founders",
+  "investors",
+  "board"
  ],
  "fields": [
   {
@@ -42,6 +58,7 @@
    "in_list_view": 1,
    "in_preview": 1,
    "label": "Venture Name",
+   "reqd": 1,
    "unique": 1
   },
   {
@@ -96,6 +113,7 @@
   {
    "fieldname": "stage",
    "fieldtype": "Select",
+   "in_list_view": 1,
    "label": "Stage",
    "options": "Idea\nConcept\nProduct Development\nBeta\nLaunch\nGrowth\nScale"
   },
@@ -173,11 +191,107 @@
    "fieldname": "team_tab",
    "fieldtype": "Tab Break",
    "label": "Team"
+  },
+  {
+   "fieldname": "founder_fund",
+   "fieldtype": "Link",
+   "label": "Founder Fund",
+   "options": "Founder Fund"
+  },
+  {
+   "fieldname": "industry",
+   "fieldtype": "Link",
+   "label": "Industry",
+   "options": "Industry Type"
+  },
+  {
+   "fieldname": "section_break_sevm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "website",
+   "fieldtype": "Data",
+   "label": "Website",
+   "options": "URL"
+  },
+  {
+   "fieldname": "social_media_links",
+   "fieldtype": "Table",
+   "label": "Social Media Links",
+   "options": "Venture Social Media"
+  },
+  {
+   "fieldname": "total_funding",
+   "fieldtype": "Currency",
+   "label": "Total Funding Raised"
+  },
+  {
+   "fieldname": "current_valuation",
+   "fieldtype": "Currency",
+   "label": "Current Valuation"
+  },
+  {
+   "fieldname": "column_break_qner",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "revenue_last_year",
+   "fieldtype": "Currency",
+   "label": "Revenue Last Year"
+  },
+  {
+   "fieldname": "burn_rate",
+   "fieldtype": "Currency",
+   "label": "Monthly Burn Rate"
+  },
+  {
+   "fieldname": "team_section",
+   "fieldtype": "Section Break",
+   "label": "Team"
+  },
+  {
+   "fieldname": "founders",
+   "fieldtype": "Table",
+   "label": "Founders",
+   "options": "Venture Founder"
+  },
+  {
+   "fieldname": "investors",
+   "fieldtype": "Table",
+   "label": "Investors",
+   "options": "Venture Investor"
+  },
+  {
+   "fieldname": "board",
+   "fieldtype": "Table",
+   "label": "Board",
+   "options": "Venture Board Member"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "fieldname": "marketing_campaign",
+   "fieldtype": "Link",
+   "label": "Marketing Campaign",
+   "options": "Campaign"
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-07-28 11:34:50.768502",
+ "links": [
+  {
+   "link_doctype": "Term Sheet",
+   "link_fieldname": "venture"
+  },
+  {
+   "link_doctype": "Funding Round",
+   "link_fieldname": "venture"
+  }
+ ],
+ "modified": "2024-07-28 21:01:57.684772",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Venture",

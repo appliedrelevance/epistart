@@ -6,11 +6,12 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "founder_type",
+  "linked_record",
   "full_name",
-  "position",
   "column_break_ehia",
+  "position",
   "start_date",
-  "user",
   "gross_hourly_resource_rate_section",
   "fhrr",
   "column_break_zoeu",
@@ -18,6 +19,8 @@
  ],
  "fields": [
   {
+   "fetch_from": "employee.employee_name",
+   "fetch_if_empty": 1,
    "fieldname": "full_name",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -44,12 +47,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "user",
-   "fieldtype": "Link",
-   "label": "User",
-   "options": "User"
-  },
-  {
    "fieldname": "gross_hourly_resource_rate_section",
    "fieldtype": "Section Break",
    "label": "Hourly Resource Rate"
@@ -71,11 +68,29 @@
    "fieldname": "multiplier",
    "fieldtype": "Float",
    "label": "Multiplier"
+  },
+  {
+   "fieldname": "founder_type",
+   "fieldtype": "Select",
+   "label": "Founder Type",
+   "options": "Employee\nInvestor\nAdvisor"
+  },
+  {
+   "fieldname": "linked_record",
+   "fieldtype": "Dynamic Link",
+   "label": "Linked Record",
+   "options": "founder_type",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-07-28 16:11:48.963759",
+ "links": [
+  {
+   "link_doctype": "Contribution",
+   "link_fieldname": "founder"
+  }
+ ],
+ "modified": "2024-07-28 17:07:37.214133",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Founder",
@@ -102,17 +117,6 @@
    "report": 1,
    "role": "Founder Fund Contributor",
    "share": 1
-  },
-  {
-   "email": 1,
-   "export": 1,
-   "if_owner": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Founder Fund Contributor",
-   "share": 1,
-   "write": 1
   },
   {
    "create": 1,

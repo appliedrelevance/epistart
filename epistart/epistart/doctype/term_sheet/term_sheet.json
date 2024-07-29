@@ -1,0 +1,96 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-28 18:50:49.129591",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "venture",
+  "funding_round",
+  "funding_date",
+  "status",
+  "lead_investor",
+  "investment_amount",
+  "equity_offered",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "label": "Venture",
+   "options": "Venture"
+  },
+  {
+   "fieldname": "funding_round",
+   "fieldtype": "Link",
+   "label": "Funding Round",
+   "options": "Funding Round"
+  },
+  {
+   "fieldname": "funding_date",
+   "fieldtype": "Date",
+   "label": "Funding Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Draft\nNegotiating\nAccepted\nRejected"
+  },
+  {
+   "fieldname": "lead_investor",
+   "fieldtype": "Link",
+   "label": "Lead Investor",
+   "options": "Investor"
+  },
+  {
+   "fieldname": "investment_amount",
+   "fieldtype": "Currency",
+   "label": "Investment Amount"
+  },
+  {
+   "fieldname": "equity_offered",
+   "fieldtype": "Percent",
+   "label": "Equity Offered"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Term Sheet",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-28 18:55:32.178967",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Term Sheet",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_views": 1
+}

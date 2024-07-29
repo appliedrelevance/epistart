@@ -9,7 +9,17 @@ fixtures = [
     {"doctype": "Workspace", "filters": {"name": ["in", ["EpiStart"]]}},
     {
         "doctype": "Role",
-        "filters": {"name": ["in", ["EpiStart User", "EpiStart Administrator"]]},
+        "filters": {
+            "name": [
+                "in",
+                [
+                    "EpiStart User",
+                    "EpiStart Administrator",
+                    "Founder Fund Contributor",
+                    "Founder Fund Administrator",
+                ],
+            ]
+        },
     },
     {"doctype": "Print Format", "filters": {"module": ["in", ["EpiStart"]]}},
     {"doctype": "Cost Structure"},
@@ -18,7 +28,10 @@ fixtures = [
     {"doctype": "Customer Segment"},
     {"doctype": "Channel"},
     {"doctype": "Customer Relationship Type"},
+    {"doctype": "Contribution Type"},
 ]
+
+
 required_apps = ["erpnext"]
 
 # Includes in <head>

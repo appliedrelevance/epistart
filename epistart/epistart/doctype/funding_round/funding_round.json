@@ -1,0 +1,126 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-28 17:18:57.033857",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "venture",
+  "round_name",
+  "column_break_masw",
+  "stage",
+  "status",
+  "section_break_urid",
+  "start_date",
+  "column_break_arrs",
+  "end_date",
+  "valuation_section",
+  "target_amount",
+  "column_break_wlhi",
+  "pre_money_valuation",
+  "column_break_iqrr",
+  "post_money_valuation"
+ ],
+ "fields": [
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Venture",
+   "options": "Venture",
+   "reqd": 1
+  },
+  {
+   "fieldname": "round_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Round Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Planned\nActive\nClosed"
+  },
+  {
+   "fieldname": "section_break_urid",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "column_break_masw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "stage",
+   "fieldtype": "Select",
+   "label": "Stage"
+  },
+  {
+   "fieldname": "column_break_arrs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "valuation_section",
+   "fieldtype": "Section Break",
+   "label": "Valuation"
+  },
+  {
+   "fieldname": "pre_money_valuation",
+   "fieldtype": "Currency",
+   "label": "Pre Money Valuation"
+  },
+  {
+   "fieldname": "target_amount",
+   "fieldtype": "Currency",
+   "label": "Target Amount"
+  },
+  {
+   "fieldname": "column_break_wlhi",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_iqrr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "post_money_valuation",
+   "fieldtype": "Currency",
+   "label": "Post Money Valuation"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 18:50:05.451518",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Funding Round",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

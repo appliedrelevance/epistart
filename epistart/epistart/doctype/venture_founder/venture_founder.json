@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-28 20:17:48.897099",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "founder",
+  "position",
+  "start_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "founder",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Founder",
+   "options": "Founder",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "founder.position",
+   "fieldname": "position",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Position",
+   "options": "Founder Position"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-28 20:57:55.240488",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Venture Founder",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

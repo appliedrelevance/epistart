@@ -7,12 +7,13 @@
  "engine": "InnoDB",
  "field_order": [
   "section_break_inqa",
+  "fund",
+  "founder",
   "contribution_type",
+  "column_break_kqyn",
+  "date",
   "unit",
   "value",
-  "column_break_kqyn",
-  "founder",
-  "date",
   "points",
   "rates_section",
   "point_conversion_rate",
@@ -20,8 +21,6 @@
   "fhrr",
   "section_break_nxhe",
   "description",
-  "section_break_qylp",
-  "fund",
   "history_tab",
   "amended_from"
  ],
@@ -124,10 +123,6 @@
    "label": "Description"
   },
   {
-   "fieldname": "section_break_qylp",
-   "fieldtype": "Section Break"
-  },
-  {
    "description": "Link to the Founder Fund",
    "fetch_from": "fund_settings.default_founder_fund",
    "fieldname": "fund",
@@ -156,7 +151,7 @@
  "is_calendar_and_gantt": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-28 16:09:32.155455",
+ "modified": "2024-07-28 17:12:46.171974",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Contribution",

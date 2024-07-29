@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-28 20:25:35.107356",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "investor",
+  "column_break_omcn",
+  "investment_date",
+  "investment_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "investor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "label": "Investor",
+   "options": "Investor"
+  },
+  {
+   "fieldname": "column_break_omcn",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "investment_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Investment Date"
+  },
+  {
+   "fieldname": "investment_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Investment Amount",
+   "non_negative": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-07-28 20:28:21.063692",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Venture Investor",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

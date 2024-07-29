@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-28 17:13:09.469952",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "investor_name",
+  "investor_type",
+  "column_break_svxw",
+  "contact",
+  "user",
+  "founder"
+ ],
+ "fields": [
+  {
+   "fieldname": "investor_name",
+   "fieldtype": "Data",
+   "label": "Investor Name"
+  },
+  {
+   "fieldname": "investor_type",
+   "fieldtype": "Select",
+   "label": "Investor Type",
+   "options": "Angel\nVenture Capital\nPrivate Equity\nCorporate\nOther"
+  },
+  {
+   "fieldname": "column_break_svxw",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "contact",
+   "fieldtype": "Link",
+   "label": "Contact",
+   "options": "Contact"
+  },
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "label": "User",
+   "options": "User"
+  },
+  {
+   "fieldname": "founder",
+   "fieldtype": "Link",
+   "label": "Founder",
+   "options": "Founder"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-28 17:18:27.897198",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "Investor",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

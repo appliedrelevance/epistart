@@ -81,33 +81,6 @@
   "name": "ESLC-CHNL-0026"
  },
  {
-  "channel_name": "Direct Sales",
-  "channel_type": "Online",
-  "description": "<div class=\"ql-editor read-mode\"><p>Engaging potential customers through face-to-face meetings, phone calls, and personalized email outreach to demonstrate the value of the product and close deals.</p></div>",
-  "docstatus": 0,
-  "doctype": "Channel",
-  "modified": "2024-06-20 15:05:18.248777",
-  "name": "ESLC-CHNL-0017"
- },
- {
-  "channel_name": "Content Marketing",
-  "channel_type": "Online",
-  "description": "<div class=\"ql-editor read-mode\"><p>Creating and distributing valuable, relevant content such as blog posts, whitepapers, case studies, and videos to attract and engage potential customers.</p></div>",
-  "docstatus": 0,
-  "doctype": "Channel",
-  "modified": "2024-06-20 15:06:24.865509",
-  "name": "ESLC-CHNL-0019"
- },
- {
-  "channel_name": "Partnerships and Alliances",
-  "channel_type": "Offline",
-  "description": "<div class=\"ql-editor read-mode\"><p>Forming strategic partnerships with other companies, industry influencers, and technology providers to reach new audiences and enhance credibility.</p></div>",
-  "docstatus": 0,
-  "doctype": "Channel",
-  "modified": "2024-06-20 15:08:16.002965",
-  "name": "ESLC-CHNL-0022"
- },
- {
   "channel_name": "Client Web Meetings",
   "channel_type": "Online",
   "description": null,
@@ -142,5 +115,32 @@
   "doctype": "Channel",
   "modified": "2024-07-04 12:57:32.455218",
   "name": "ESLC-CHNL-0045"
+ },
+ {
+  "channel_name": "Direct Sales",
+  "channel_type": "Online",
+  "description": "<div class=\"ql-editor read-mode\"><p>Engaging potential customers through face-to-face meetings, phone calls, and personalized email outreach to demonstrate the value of the product and close deals.</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-06-20 15:05:18.248777",
+  "name": "ESLC-CHNL-0017"
+ },
+ {
+  "channel_name": "Content Marketing",
+  "channel_type": "Online",
+  "description": "<div class=\"ql-editor read-mode\"><p>Creating and distributing valuable, relevant content such as blog posts, whitepapers, case studies, and videos to attract and engage potential customers.</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-06-20 15:06:24.865509",
+  "name": "ESLC-CHNL-0019"
+ },
+ {
+  "channel_name": "Partnerships and Alliances",
+  "channel_type": "Offline",
+  "description": "<div class=\"ql-editor read-mode\"><p>Forming strategic partnerships with other companies, industry influencers, and technology providers to reach new audiences and enhance credibility.</p></div>",
+  "docstatus": 0,
+  "doctype": "Channel",
+  "modified": "2024-06-20 15:08:16.002965",
+  "name": "ESLC-CHNL-0022"
  }
 ]

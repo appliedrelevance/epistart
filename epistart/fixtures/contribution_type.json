@@ -1,0 +1,82 @@
+[
+ {
+  "contribution_name": "Unreimbursed Expenses",
+  "description": "Unreimbursed Travel and Living Expenses and other licenses directly related to the Startup. ",
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.471020",
+  "name": "Unreimbursed Expenses",
+  "point_conversion_rate": 1.0,
+  "units": "Resources"
+ },
+ {
+  "contribution_name": "Minor Working Capital",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.458649",
+  "name": "Minor Working Capital",
+  "point_conversion_rate": 4.0,
+  "units": "Cash"
+ },
+ {
+  "contribution_name": "Fair Rent",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.447442",
+  "name": "Fair Rent",
+  "point_conversion_rate": 1.0,
+  "units": "Resources"
+ },
+ {
+  "contribution_name": "Equipment",
+  "description": "Equipment (computers, devices) purchased for the company.",
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.414387",
+  "name": "Equipment",
+  "point_conversion_rate": 1.0,
+  "units": "Resources"
+ },
+ {
+  "contribution_name": "Supplies",
+  "description": "Fair market value of supplies purchased for the company.",
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.425393",
+  "name": "Supplies",
+  "point_conversion_rate": 1.0,
+  "units": "Resources"
+ },
+ {
+  "contribution_name": "Intellectual Property",
+  "description": "Fair Market Value of Intellectual Property",
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.402696",
+  "name": "Intellectual Property",
+  "point_conversion_rate": 1.5,
+  "units": "Resources"
+ },
+ {
+  "contribution_name": "Commission on Sales",
+  "description": "Unreimbursed commission on sales",
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.377691",
+  "name": "Commission on Sales",
+  "point_conversion_rate": 2.0,
+  "units": "Resources"
+ },
+ {
+  "contribution_name": "Hours Worked",
+  "description": "Normal working hours at the standard Grunt Hourly Resource Rate.",
+  "docstatus": 0,
+  "doctype": "Contribution Type",
+  "modified": "2024-07-16 15:55:19.435233",
+  "name": "Hours Worked",
+  "point_conversion_rate": 2.0,
+  "units": "Hours"
+ }
+]

@@ -26,7 +26,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-04 11:57:54.982256",
+ "modified": "2024-08-14 17:53:38.362777",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Persona Role",
@@ -59,7 +59,6 @@
   },
   {
    "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,

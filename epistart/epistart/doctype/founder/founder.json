@@ -90,7 +90,7 @@
    "link_fieldname": "founder"
   }
  ],
- "modified": "2024-07-28 17:07:37.214133",
+ "modified": "2024-08-14 16:53:32.445778",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Founder",
@@ -110,15 +110,6 @@
    "write": 1
   },
   {
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Founder Fund Contributor",
-   "share": 1
-  },
-  {
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -126,9 +117,18 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Founder Fund Administrator",
+   "role": "EpiStart Administrator",
    "share": 1,
    "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart User",
+   "share": 1
   }
  ],
  "show_title_field_in_link": 1,

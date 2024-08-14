@@ -145,12 +145,13 @@
    "fieldname": "venture",
    "fieldtype": "Link",
    "label": "Venture",
-   "options": "Venture"
+   "options": "Venture",
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-29 10:22:49.094225",
+ "modified": "2024-08-14 16:48:11.732742",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Competitor Analysis",
@@ -181,8 +182,6 @@
    "write": 1
   },
   {
-   "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,

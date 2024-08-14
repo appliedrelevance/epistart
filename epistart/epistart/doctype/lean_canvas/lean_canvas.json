@@ -34,8 +34,8 @@
   "financial_tab",
   "key_metrics",
   "section_break_qpuf",
-  "revenue_streams",
-  "cost_structures"
+  "cost_structures",
+  "revenue_streams"
  ],
  "fields": [
   {
@@ -186,21 +186,17 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Venture",
-   "options": "Venture"
+   "options": "Venture",
+   "search_index": 1
   }
  ],
  "has_web_view": 1,
  "image_field": "logo",
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
- "links": [
-  {
-   "link_doctype": "Product Requirements",
-   "link_fieldname": "canvas_link"
-  }
- ],
+ "links": [],
  "make_attachments_public": 1,
- "modified": "2024-07-29 10:10:59.541532",
+ "modified": "2024-08-14 17:51:49.389792",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Lean Canvas",
@@ -233,7 +229,6 @@
   },
   {
    "create": 1,
-   "delete": 1,
    "email": 1,
    "export": 1,
    "print": 1,

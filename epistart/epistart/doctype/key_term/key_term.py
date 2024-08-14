@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class TermSheetCondition(Document):
+class KeyTerm(Document):
 	pass

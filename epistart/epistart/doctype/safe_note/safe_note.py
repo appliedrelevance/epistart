@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class KeyTerms(Document):
+class SAFENote(Document):
 	pass

@@ -183,7 +183,8 @@
    "fieldname": "venture",
    "fieldtype": "Link",
    "label": "Venture",
-   "options": "Venture"
+   "options": "Venture",
+   "search_index": 1
   },
   {
    "fieldname": "column_break_yapi",
@@ -192,7 +193,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-29 09:55:27.905783",
+ "modified": "2024-08-14 17:57:12.756661",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Product Requirements",
@@ -237,6 +238,7 @@
   }
  ],
  "search_fields": "product_name, abstract",
+ "show_preview_popup": 1,
  "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",

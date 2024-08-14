@@ -18,7 +18,8 @@
    "in_list_view": 1,
    "in_preview": 1,
    "label": "Investor",
-   "options": "Investor"
+   "options": "Investor",
+   "search_index": 1
   },
   {
    "fieldname": "column_break_omcn",
@@ -41,7 +42,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-07-28 20:28:21.063692",
+ "modified": "2024-08-14 18:06:35.988266",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Venture Investor",

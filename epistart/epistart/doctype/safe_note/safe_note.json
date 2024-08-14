@@ -1,0 +1,141 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-14 10:41:51.700501",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_jhqm",
+  "venture",
+  "investor",
+  "issue_date",
+  "status",
+  "column_break_usix",
+  "investment_amount",
+  "valuation_cap",
+  "discount_rate",
+  "trigger_event",
+  "section_break_btth",
+  "notes",
+  "section_break_5igj",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_5igj",
+   "fieldtype": "Section Break",
+   "label": "History"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "SAFE Note",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "section_break_jhqm",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "venture",
+   "fieldtype": "Link",
+   "label": "Venture",
+   "options": "Venture",
+   "search_index": 1
+  },
+  {
+   "fieldname": "investor",
+   "fieldtype": "Link",
+   "label": "Investor",
+   "options": "Investor",
+   "search_index": 1
+  },
+  {
+   "fieldname": "issue_date",
+   "fieldtype": "Date",
+   "label": "Issue Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nConverted\nTerminated"
+  },
+  {
+   "fieldname": "column_break_usix",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "investment_amount",
+   "fieldtype": "Currency",
+   "label": "Investment Amount"
+  },
+  {
+   "fieldname": "valuation_cap",
+   "fieldtype": "Currency",
+   "label": "Valuation Cap"
+  },
+  {
+   "fieldname": "discount_rate",
+   "fieldtype": "Percent",
+   "label": "Discount Rate"
+  },
+  {
+   "fieldname": "trigger_event",
+   "fieldtype": "Select",
+   "label": "Trigger Event",
+   "options": "Equity Financing\nLiquidity Event\nDissolution Event"
+  },
+  {
+   "fieldname": "section_break_btth",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-08-14 18:00:27.960101",
+ "modified_by": "Administrator",
+ "module": "EpiStart",
+ "name": "SAFE Note",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

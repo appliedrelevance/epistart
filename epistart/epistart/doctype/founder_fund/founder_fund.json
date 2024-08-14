@@ -31,12 +31,13 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Venture",
-   "options": "Venture"
+   "options": "Venture",
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-07-29 10:34:57.027276",
+ "modified": "2024-08-14 16:54:28.172324",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Founder Fund",
@@ -63,7 +64,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Founder Fund Administrator",
+   "role": "EpiStart Administrator",
    "share": 1,
    "write": 1
   },
@@ -73,7 +74,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Founder Fund Contributor",
+   "role": "EpiStart User",
    "share": 1
   }
  ],

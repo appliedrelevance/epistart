@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:investor_name",
  "creation": "2024-07-28 17:13:09.469952",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -10,13 +11,16 @@
   "column_break_svxw",
   "contact",
   "user",
-  "founder"
+  "founder",
+  "section_break_mpbh",
+  "investor_thesis"
  ],
  "fields": [
   {
    "fieldname": "investor_name",
    "fieldtype": "Data",
-   "label": "Investor Name"
+   "label": "Investor Name",
+   "unique": 1
   },
   {
    "fieldname": "investor_type",
@@ -45,14 +49,36 @@
    "fieldtype": "Link",
    "label": "Founder",
    "options": "Founder"
+  },
+  {
+   "fieldname": "section_break_mpbh",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "investor_thesis",
+   "fieldtype": "Text Editor",
+   "label": "Investor Thesis"
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2024-07-28 17:18:27.897198",
+ "links": [
+  {
+   "group": "Financing",
+   "link_doctype": "SAFE Note",
+   "link_fieldname": "investor"
+  },
+  {
+   "group": "Financing",
+   "link_doctype": "Venture",
+   "link_fieldname": "investor",
+   "table_fieldname": "investors"
+  }
+ ],
+ "modified": "2024-08-14 17:00:56.633097",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Investor",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {
@@ -66,9 +92,32 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart User",
+   "share": 1
   }
  ],
+ "show_title_field_in_link": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "investor_name"
 }

@@ -1,5 +1,7 @@
 {
  "actions": [],
+ "allow_events_in_timeline": 1,
+ "allow_import": 1,
  "allow_rename": 1,
  "autoname": "format:{venture_name}",
  "creation": "2024-07-28 10:29:00.658760",
@@ -281,8 +283,34 @@
    "options": "Campaign"
   }
  ],
+ "image_field": "logo",
  "index_web_pages_for_search": 1,
  "links": [
+  {
+   "group": "Strategy",
+   "link_doctype": "Product Requirements",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Business Model Canvas",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Competitor Analysis",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Product Marketing Plan",
+   "link_fieldname": "venture"
+  },
+  {
+   "group": "Strategy",
+   "link_doctype": "Lean Canvas",
+   "link_fieldname": "venture"
+  },
   {
    "group": "Financial",
    "link_doctype": "Founder Fund",
@@ -299,27 +327,12 @@
    "link_fieldname": "venture"
   },
   {
-   "group": "Strategy",
-   "link_doctype": "Product Requirements",
-   "link_fieldname": "venture"
-  },
-  {
-   "group": "Strategy",
-   "link_doctype": "Lean Canvas",
-   "link_fieldname": "venture"
-  },
-  {
-   "group": "Strategy",
-   "link_doctype": "Business Model Canvas",
-   "link_fieldname": "venture"
-  },
-  {
-   "group": "Strategy",
-   "link_doctype": "Competitor Analysis",
+   "group": "Financial",
+   "link_doctype": "SAFE Note",
    "link_fieldname": "venture"
   }
  ],
- "modified": "2024-07-29 11:25:37.887667",
+ "modified": "2024-08-14 17:58:03.703790",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Venture",

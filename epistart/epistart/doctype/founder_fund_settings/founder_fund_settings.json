@@ -18,7 +18,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2024-07-28 16:15:53.716052",
+ "modified": "2024-08-14 16:55:41.014647",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Founder Fund Settings",
@@ -33,6 +33,23 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "EpiStart Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "EpiStart User",
+   "share": 1
   }
  ],
  "sort_field": "modified",

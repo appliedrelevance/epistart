@@ -9,9 +9,11 @@
   "funding_round",
   "funding_date",
   "status",
+  "column_break_uskt",
   "lead_investor",
   "investment_amount",
   "equity_offered",
+  "section_break_rrtd",
   "amended_from"
  ],
  "fields": [
@@ -19,7 +21,8 @@
    "fieldname": "venture",
    "fieldtype": "Link",
    "label": "Venture",
-   "options": "Venture"
+   "options": "Venture",
+   "search_index": 1
   },
   {
    "fieldname": "funding_round",
@@ -63,12 +66,20 @@
    "print_hide": 1,
    "read_only": 1,
    "search_index": 1
+  },
+  {
+   "fieldname": "column_break_uskt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_rrtd",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-28 18:55:32.178967",
+ "modified": "2024-08-14 18:02:27.040233",
  "modified_by": "Administrator",
  "module": "EpiStart",
  "name": "Term Sheet",
@@ -83,6 +94,18 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "EpiStart Administrator",
    "share": 1,
    "write": 1
   }
